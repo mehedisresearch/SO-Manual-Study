@@ -28,4 +28,4 @@ See `results/taxonomy.csv`. High-level findings:
 3. Two annotators independently label all 690; resolve disagreements (third annotator if needed).
 4. Report frequencies and κ.
 
-The raw per-edit coding sheet is **not yet included** in this package. Add the anonymized coding CSV under `data/` when releasing the final artifact (columns such as `SuggestedId`, `coder1_label`, `coder2_label`, `final_label`).
+Mapped SO→taxonomy labels are in `data/mapped_rejection_reasons.*`. The anonymized per-edit 690-row coding sheet (if released separately) should also live under `data/`.

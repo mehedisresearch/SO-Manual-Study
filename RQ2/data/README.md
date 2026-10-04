@@ -1,17 +1,9 @@
 # RQ2 data
 
-Place the anonymized 690-edit coding sheet here, for example:
+Included:
 
-```
-rq2_coding_sheet.csv
-```
+- `mapped_rejection_reasons.csv` / `.xlsx` / `.xls` — mapping between Stack Overflow predefined rejection reasons and the fine-grained taxonomy
 
-Suggested columns:
+Still recommended for full qualitative replication:
 
-- `SuggestedId` / `PostId`
-- `coder1_reason`
-- `coder2_reason`
-- `final_reason`
-- optional free-text notes
-
-This file is intentionally omitted from the public Git snapshot until the final annotated sheet is prepared for release.
+- Anonymized 690-edit coding sheet (`SuggestedId`, coder labels, final label)
