@@ -1,10 +1,5 @@
 # Understanding Suggested Edits in Stack Overflow
 
-Replication package for the TOSEM 2026 paper:
-
-> **Understanding Suggested Edits in Stack Overflow: A Large-Scale Empirical Study and Review Prioritization Framework**  
-> Mehedi Hasan Shanto, Muhammad Asaduzzaman, Md Ahasanuzzaman, Alioune Ngom
-
 This package is organized by research question. Each RQ folder contains its own `data/`, `analysis/`, and `results/` materials.
 
 ```
