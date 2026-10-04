@@ -1,0 +1,100 @@
+{
+  "model": "XGBoost Metadata (35 features) on LLM 500-sample subset",
+  "n_samples": 500,
+  "thresholds": {
+    "0.4": {
+      "threshold": 0.4,
+      "accuracy": 0.632,
+      "macro_f1": 0.6238,
+      "rejected_precision": 0.6019,
+      "rejected_recall": 0.78,
+      "rejected_f1": 0.6794,
+      "confusion_matrix": [
+        [
+          121,
+          129
+        ],
+        [
+          55,
+          195
+        ]
+      ],
+      "classification_report": {
+        "Accepted": {
+          "precision": 0.6875,
+          "recall": 0.484,
+          "f1-score": 0.568075117370892,
+          "support": 250.0
+        },
+        "Rejected": {
+          "precision": 0.6018518518518519,
+          "recall": 0.78,
+          "f1-score": 0.6794425087108014,
+          "support": 250.0
+        },
+        "accuracy": 0.632,
+        "macro avg": {
+          "precision": 0.6446759259259259,
+          "recall": 0.632,
+          "f1-score": 0.6237588130408467,
+          "support": 500.0
+        },
+        "weighted avg": {
+          "precision": 0.6446759259259258,
+          "recall": 0.632,
+          "f1-score": 0.6237588130408467,
+          "support": 500.0
+        }
+      },
+      "n_pred_rejected": 324,
+      "n_pred_accepted": 176
+    },
+    "0.6": {
+      "threshold": 0.6,
+      "accuracy": 0.664,
+      "macro_f1": 0.6618,
+      "rejected_precision": 0.6952,
+      "rejected_recall": 0.584,
+      "rejected_f1": 0.6348,
+      "confusion_matrix": [
+        [
+          186,
+          64
+        ],
+        [
+          104,
+          146
+        ]
+      ],
+      "classification_report": {
+        "Accepted": {
+          "precision": 0.6413793103448275,
+          "recall": 0.744,
+          "f1-score": 0.6888888888888889,
+          "support": 250.0
+        },
+        "Rejected": {
+          "precision": 0.6952380952380952,
+          "recall": 0.584,
+          "f1-score": 0.6347826086956522,
+          "support": 250.0
+        },
+        "accuracy": 0.664,
+        "macro avg": {
+          "precision": 0.6683087027914614,
+          "recall": 0.6639999999999999,
+          "f1-score": 0.6618357487922706,
+          "support": 500.0
+        },
+        "weighted avg": {
+          "precision": 0.6683087027914614,
+          "recall": 0.664,
+          "f1-score": 0.6618357487922706,
+          "support": 500.0
+        }
+      },
+      "n_pred_rejected": 210,
+      "n_pred_accepted": 290
+    }
+  }
+}

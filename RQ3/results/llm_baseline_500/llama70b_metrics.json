@@ -1,0 +1,50 @@
+{
+  "model": "llama70b (/gpuhome/shanto1/models/Llama-3.1-70B-Instruct)",
+  "n_samples": 500,
+  "invalid_predictions": 1,
+  "accuracy": 0.548,
+  "macro_f1": 0.5173,
+  "rejected_precision": 0.5968,
+  "rejected_recall": 0.296,
+  "rejected_f1": 0.3957,
+  "confusion_matrix": [
+    [
+      200,
+      50
+    ],
+    [
+      176,
+      74
+    ]
+  ],
+  "classification_report": {
+    "Accepted": {
+      "precision": 0.5319148936170213,
+      "recall": 0.8,
+      "f1-score": 0.6389776357827476,
+      "support": 250.0
+    },
+    "Rejected": {
+      "precision": 0.5967741935483871,
+      "recall": 0.296,
+      "f1-score": 0.39572192513368987,
+      "support": 250.0
+    },
+    "accuracy": 0.548,
+    "macro avg": {
+      "precision": 0.5643445435827041,
+      "recall": 0.548,
+      "f1-score": 0.5173497804582188,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.5643445435827041,
+      "recall": 0.548,
+      "f1-score": 0.5173497804582187,
+      "support": 500.0
+    }
+  },
+  "model_path": "/gpuhome/shanto1/models/Llama-3.1-70B-Instruct",
+  "backend": "causal",
+  "n_gpus": 8
+}

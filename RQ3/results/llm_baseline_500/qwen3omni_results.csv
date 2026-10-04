@@ -1,0 +1,1068 @@
+SuggestedId,y_true,Decision,Category,Reasoning,raw_output,parse_error,model,y_pred_rejected
+5495868,Rejected,Accepted,,"The edit adds a generalized solution for URL concatenation, improving the answer's completeness and practicality.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a generalized solution for URL concatenation, improving the answer's completeness and practicality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485096,Accepted,Accepted,,The edit improves concision by removing redundant text and tightening the question.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves concision by removing redundant text and tightening the question.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465192,Rejected,Accepted,,The edit improves code quality by adding necessary imports and parameters to suppress deprecation warnings.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code quality by adding necessary imports and parameters to suppress deprecation warnings.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464255,Accepted,Accepted,,The edit corrects minor grammatical errors and improves readability without altering technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects minor grammatical errors and improves readability without altering technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475904,Accepted,Accepted,,"The edit corrected spelling and grammar errors, improving clarity without altering the technical content.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected spelling and grammar errors, improving clarity without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462834,Rejected,Accepted,,The edit improves code readability by adding proper syntax highlighting and formatting.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper syntax highlighting and formatting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5509132,Rejected,Rejected,Unnecessary Formatting,The edit only changes indentation and line breaks without improving clarity or fixing issues.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit only changes indentation and line breaks without improving clarity or fixing issues.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5479418,Accepted,Accepted,,The edit improves grammar and clarity without altering the technical meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar and clarity without altering the technical meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5502771,Accepted,Accepted,,"The edit corrects a method name typo from 'mkDirs' to 'mkdirs', which is a valid and necessary fix.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a method name typo from 'mkDirs' to 'mkdirs', which is a valid and necessary fix.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490383,Rejected,Rejected,Incorrect/Risky,"The edit changes the URL scheme to use protocol-relative URLs, which is outdated and can cause security issues.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit changes the URL scheme to use protocol-relative URLs, which is outdated and can cause security issues.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5497800,Accepted,Accepted,,The edit provides a more accurate and up-to-date link to the official documentation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit provides a more accurate and up-to-date link to the official documentation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464997,Accepted,Accepted,,The edit correctly identifies that add_filter should be used for the 'woocommerce_email_classes' filter hook instead of add_action.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly identifies that add_filter should be used for the 'woocommerce_email_classes' filter hook instead of add_action.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5488152,Rejected,Accepted,,"The edit fixes missing quotation marks and adds a missing comma in the padding attribute, which is necessary for valid XAML syntax.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes missing quotation marks and adds a missing comma in the padding attribute, which is necessary for valid XAML syntax.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5496502,Accepted,Accepted,,The edit correctly adds the python code highlighting tag for better readability.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly adds the python code highlighting tag for better readability.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470776,Rejected,Accepted,,The edit removes a potentially problematic command that could undo previous changes.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removes a potentially problematic command that could undo previous changes.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477007,Rejected,Accepted,,The added warning improves clarity and prevents potential data loss by informing users about .gitignore and committing.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The added warning improves clarity and prevents potential data loss by informing users about .gitignore and committing.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500718,Rejected,Accepted,,The edit improves code safety by using a context manager for file handling.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code safety by using a context manager for file handling.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507677,Accepted,Accepted,,"The edit adds useful, safe, and relevant information about selectively removing Docker images.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds useful, safe, and relevant information about selectively removing Docker images.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5495296,Rejected,Accepted,,"The edit adds relevant information about the maximum recursion limit, directly addressing the question's title.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds relevant information about the maximum recursion limit, directly addressing the question's title.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479024,Rejected,Accepted,,The edit provides a safer and more informative alternative solution to the problem.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit provides a safer and more informative alternative solution to the problem.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481034,Rejected,Accepted,,"The edit improved grammar, formatting, and readability without altering the meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved grammar, formatting, and readability without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5489656,Rejected,Rejected,Incorrect/Risky,The Kotlin code uses Java syntax and is incorrectly labeled as Kotlin.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The Kotlin code uses Java syntax and is incorrectly labeled as Kotlin.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5476687,Rejected,Rejected,Unnecessary Content,"The edit removes the entire code block, leaving only a fragment, which is not a meaningful improvement.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit removes the entire code block, leaving only a fragment, which is not a meaningful improvement.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5467186,Rejected,Accepted,,The edit improves code formatting and readability without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and readability without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477722,Accepted,Accepted,,The edit improves readability by converting code blocks into a functional HTML snippet with proper formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by converting code blocks into a functional HTML snippet with proper formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5509247,Rejected,Accepted,,Adding TargetType improves the style specificity and is a valid UWP best practice.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Adding TargetType improves the style specificity and is a valid UWP best practice.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461833,Rejected,Accepted,,The edit fixes a typo ('in advanced' to 'in advance') and improves code formatting without altering the meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit fixes a typo ('in advanced' to 'in advance') and improves code formatting without altering the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475596,Accepted,Accepted,,"The edit improves grammar, formatting, and clarity without altering the technical meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, formatting, and clarity without altering the technical meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486167,Accepted,Accepted,,The edit improved readability by adding proper formatting to code and text without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved readability by adding proper formatting to code and text without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5505670,Rejected,Rejected,Incorrect/Risky,"The edit introduces a logic error by using an undefined variable 'tags' in the loop, which will cause a NameError when executed.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit introduces a logic error by using an undefined variable 'tags' in the loop, which will cause a NameError when executed.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5507061,Rejected,Accepted,,"The edit fixes a missing '=' symbol in the HTML form action attribute, which was causing a syntax error.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a missing '=' symbol in the HTML form action attribute, which was causing a syntax error.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468113,Rejected,Accepted,,"The edit replaces deprecated functions with their updated counterparts, improving code quality and adherence to current best practices.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit replaces deprecated functions with their updated counterparts, improving code quality and adherence to current best practices.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480691,Rejected,Accepted,,The edit improves clarity and grammar without altering the meaning or code.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity and grammar without altering the meaning or code.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464131,Accepted,Accepted,,The edit improves readability by using proper image syntax and descriptive alt text.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by using proper image syntax and descriptive alt text.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485607,Accepted,Accepted,,"The edit moved the image inline, improving readability without altering the code or meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit moved the image inline, improving readability without altering the code or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5494755,Rejected,Accepted,,"Clarifies where the output file is created, improving usability without altering code.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Clarifies where the output file is created, improving usability without altering code.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469197,Rejected,Accepted,,Adding the language identifier improves code readability and is a minor but helpful enhancement.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Adding the language identifier improves code readability and is a minor but helpful enhancement.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5478977,Accepted,Rejected,Unnecessary Formatting,The edit unnecessarily reformatted the text and code without improving clarity or fixing errors.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily reformatted the text and code without improving clarity or fixing errors.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5482684,Accepted,Accepted,,The edit correctly fixes the code fence syntax and improves code readability without altering the intended meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly fixes the code fence syntax and improves code readability without altering the intended meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469555,Accepted,Accepted,,The edit improved code readability by adding proper formatting and syntax highlighting.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code readability by adding proper formatting and syntax highlighting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464214,Rejected,Accepted,,"The edit correctly adds wildcards to the LIKE clause, which is essential for partial string matching in SQL.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly adds wildcards to the LIKE clause, which is essential for partial string matching in SQL.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469407,Accepted,Rejected,Unnecessary Formatting,"The code block was incorrectly wrapped in backticks, breaking the code formatting.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The code block was incorrectly wrapped in backticks, breaking the code formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5477308,Rejected,Accepted,,The edit adds a relevant and valid library to the list of edge ML solutions.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant and valid library to the list of edge ML solutions.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5501511,Accepted,Accepted,,Adding the test scope improves dependency clarity and best practices.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Adding the test scope improves dependency clarity and best practices.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5478790,Accepted,Accepted,,"Removed reference to a non-existent post/user, improving accuracy.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Removed reference to a non-existent post/user, improving accuracy.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473608,Accepted,Accepted,,The code formatting was improved for readability without changing the content or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The code formatting was improved for readability without changing the content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483173,Accepted,Accepted,,The edit improved clarity and grammar without altering the technical content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved clarity and grammar without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479030,Accepted,Accepted,,The edit fixes a syntax error by adding the @ decorator and improves clarity with grammar and code formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a syntax error by adding the @ decorator and improves clarity with grammar and code formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464207,Rejected,Accepted,,The edit improved code readability with consistent indentation and spacing without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code readability with consistent indentation and spacing without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485901,Accepted,Rejected,Incorrect/Risky,The code after edit is syntactically incorrect and would not run.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The code after edit is syntactically incorrect and would not run.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5471907,Accepted,Rejected,Unnecessary Formatting,"The edit unnecessarily restructured the code and text, introducing syntax errors and breaking the original formatting.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily restructured the code and text, introducing syntax errors and breaking the original formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5486556,Accepted,Accepted,,The edit improves code readability with consistent formatting and minor corrections.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent formatting and minor corrections.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463338,Accepted,Accepted,,The edit improves code readability by adding proper syntax highlighting with triple backticks.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper syntax highlighting with triple backticks.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5487263,Rejected,Accepted,,"The edit adds useful commands to help diagnose and free up RAM, improving the answer's practical value.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit adds useful commands to help diagnose and free up RAM, improving the answer's practical value.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468238,Accepted,Accepted,,The edit improves readability with proper markdown formatting for links and code.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with proper markdown formatting for links and code.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462428,Accepted,Accepted,,The edit improves readability with consistent spacing and formatting without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with consistent spacing and formatting without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477357,Accepted,Accepted,,The edit improves clarity by replacing the ambiguous underscore with a descriptive variable name.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by replacing the ambiguous underscore with a descriptive variable name.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481725,Accepted,Accepted,,Updated link to Qt6 documentation as requested.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Updated link to Qt6 documentation as requested.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5487522,Accepted,Accepted,,The edit fixes a critical XML syntax error in the plugin configuration.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a critical XML syntax error in the plugin configuration.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500107,Accepted,Accepted,,Corrects a typo in the title and improves grammar without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Corrects a typo in the title and improves grammar without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5478280,Rejected,Accepted,,The edit improves code readability with proper indentation and formatting without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper indentation and formatting without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5491026,Rejected,Accepted,,"The edit correctly removes redundant parameters that are automatically added by Firebase, improving code clarity and accuracy.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly removes redundant parameters that are automatically added by Firebase, improving code clarity and accuracy.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481099,Rejected,Accepted,,The edit improves code formatting and syntax highlighting without altering the content or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and syntax highlighting without altering the content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5487508,Rejected,Accepted,,"The edit adds a relevant example showing how to use variables with xp_cmdshell, improving the answer's usefulness.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant example showing how to use variables with xp_cmdshell, improving the answer's usefulness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465681,Accepted,Accepted,,"The edit improved code formatting, spelling, and grammar without altering the meaning or introducing errors.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code formatting, spelling, and grammar without altering the meaning or introducing errors.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483408,Accepted,Accepted,,Corrected a typo ('resopnse' to 'response') and improved clarity without altering the code's functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Corrected a typo ('resopnse' to 'response') and improved clarity without altering the code's functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5492464,Rejected,Accepted,,The edit improves code readability by fixing indentation and line breaks without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by fixing indentation and line breaks without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486356,Accepted,Accepted,,The edit properly formats code for readability without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formats code for readability without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484192,Accepted,Accepted,,The edit improves readability by adding proper code formatting.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper code formatting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477862,Rejected,Accepted,,Improved readability by converting URL to a proper Markdown link.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Improved readability by converting URL to a proper Markdown link.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479488,Rejected,Rejected,Unnecessary Formatting,The edit added code block formatting but did not improve the content or correctness of the code.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit added code block formatting but did not improve the content or correctness of the code.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5476429,Rejected,Accepted,,The edit improves image embedding syntax and fixes minor grammar issues without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves image embedding syntax and fixes minor grammar issues without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490625,Rejected,Accepted,,The edit corrected spelling and grammar errors without altering the technical content or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected spelling and grammar errors without altering the technical content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5506878,Rejected,Rejected,Unnecessary Content,The edit added a non-essential comment about gratitude that was not part of the original question.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit added a non-essential comment about gratitude that was not part of the original question.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5469112,Rejected,Accepted,,The edit improves clarity by replacing 'untick' with 'uncheck' and fixes grammar.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by replacing 'untick' with 'uncheck' and fixes grammar.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468585,Rejected,Accepted,,The edit improves code readability and conciseness by replacing a verbose conditional with the modern padStart method.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability and conciseness by replacing a verbose conditional with the modern padStart method.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462339,Rejected,Accepted,,Improved code readability with proper indentation and formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Improved code readability with proper indentation and formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5472852,Accepted,Rejected,No Meaningful Improvement,"The suggested edit does not change the code or text, making it identical to the original.","{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The suggested edit does not change the code or text, making it identical to the original.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5466424,Rejected,Accepted,,The edit improves code readability with consistent indentation and formatting without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent indentation and formatting without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5498544,Rejected,Accepted,,"The edit corrects a parameter name from 'estimator' to 'regressor' in the TransformedTargetRegressor constructor, which is the correct argument name.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a parameter name from 'estimator' to 'regressor' in the TransformedTargetRegressor constructor, which is the correct argument name.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5493683,Accepted,Accepted,,The edit improves clarity with minor grammatical and formatting fixes without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity with minor grammatical and formatting fixes without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481046,Accepted,Accepted,,"The edit adds a relevant note about the answer's obsolescence, improving its accuracy and usefulness.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant note about the answer's obsolescence, improving its accuracy and usefulness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5478171,Rejected,Accepted,,The edit improved clarity by replacing 'assembler' with 'assembly language'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved clarity by replacing 'assembler' with 'assembly language'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464220,Accepted,Accepted,,The edit improves readability with consistent formatting and corrects minor issues.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with consistent formatting and corrects minor issues.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471545,Rejected,Accepted,,The edit improves code readability with proper formatting and syntax without altering the original intent.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper formatting and syntax without altering the original intent.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463194,Accepted,Accepted,,"The edit removes unnecessary quotation marks from HTML link tags, correcting syntax errors without altering meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removes unnecessary quotation marks from HTML link tags, correcting syntax errors without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5504574,Accepted,Accepted,,The edit updated the link to a more reliable and current Microsoft documentation URL.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit updated the link to a more reliable and current Microsoft documentation URL.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479489,Rejected,Rejected,Incorrect/Risky,The suggested edit introduces a potentially incorrect use of xargs -I flag syntax that could break the command's functionality.,"{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The suggested edit introduces a potentially incorrect use of xargs -I flag syntax that could break the command's functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5494954,Rejected,Accepted,,The edit improves cross-platform compatibility by using os.path.sep instead of hardcoded '/'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves cross-platform compatibility by using os.path.sep instead of hardcoded '/'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5505542,Rejected,Accepted,,The edit adds a clarifying comment about version behavior changes without altering the core content or structure.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a clarifying comment about version behavior changes without altering the core content or structure.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490988,Rejected,Accepted,,"The edit adds a clear, non-recursive alternative that addresses performance and recursion concerns mentioned in the text.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a clear, non-recursive alternative that addresses performance and recursion concerns mentioned in the text.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463510,Rejected,Rejected,Unnecessary Content,"The edit replaced the original word list with a different one, changing the quiz content.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit replaced the original word list with a different one, changing the quiz content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5467568,Rejected,Accepted,,The edit removes a syntax error caused by an unnecessary comma before 'from'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removes a syntax error caused by an unnecessary comma before 'from'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5497382,Rejected,Accepted,,"The edit adds missing getters and setters to the Task entity, improving code completeness and correctness.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds missing getters and setters to the Task entity, improving code completeness and correctness.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5498102,Rejected,Accepted,,Added a helpful official documentation link to clarify the process for macOS users.,"{""Decision"": ""Accepted"", ""Reasoning"": ""Added a helpful official documentation link to clarify the process for macOS users.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5499130,Rejected,Accepted,,The edit provides a meaningful improvement by adding a practical solution for closing previous info windows before opening new ones.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit provides a meaningful improvement by adding a practical solution for closing previous info windows before opening new ones.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473212,Accepted,Rejected,Incorrect/Risky,"The edit incorrectly combines code blocks and removes proper formatting, making the content harder to read and understand.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly combines code blocks and removes proper formatting, making the content harder to read and understand.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5472972,Accepted,Accepted,,The edit improves readability by embedding the image inline with descriptive alt text.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by embedding the image inline with descriptive alt text.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473440,Rejected,Accepted,,The edit removed redundant text and improved clarity without changing the question's intent.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit removed redundant text and improved clarity without changing the question's intent.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5502646,Accepted,Accepted,,The edit correctly expands the abbreviation 'RC' to 'race condition' for clarity.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly expands the abbreviation 'RC' to 'race condition' for clarity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480824,Accepted,Accepted,,Improved readability and formatting without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Improved readability and formatting without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490036,Rejected,Accepted,,The edit improves accuracy by specifying the C99 standard's introduction of boolean types.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves accuracy by specifying the C99 standard's introduction of boolean types.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482256,Accepted,Accepted,,"The edit replaced dead links with working ones, improving the post's usability.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit replaced dead links with working ones, improving the post's usability.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471439,Rejected,Rejected,No Meaningful Improvement,"The suggested edit does not change the code or text, making it identical to the original.","{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The suggested edit does not change the code or text, making it identical to the original.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5462994,Rejected,Accepted,,"The edit removed redundant text, improving clarity without altering meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removed redundant text, improving clarity without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468810,Accepted,Accepted,,The edit improves code formatting and adds language identifiers for better readability.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and adds language identifiers for better readability.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486143,Rejected,Accepted,,The edit fixes invalid CSS syntax and improves clarity with comments and structure.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes invalid CSS syntax and improves clarity with comments and structure.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479579,Accepted,,,,"6     0 0     0     6     01101 6     0     0     0     6     01101 6     0     0     0    
+2 FVP110~ 2.06e4 8     9.3 e 1     2    93 0     0     0     0     0     093   0     0     0     0     0     093   0     0    
+3 FVP110~ 2.10e6 6     9.3 e 1     2    93 0     0     0     0     0     093   0     0     0     0     0     093   0     0    
+4 FVP110~ 2.10e6 6     3.11e18  3111     8 0     0     0     8     03",Could not parse Decision,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5472422,Rejected,Accepted,,"Clarified the Windows section as PowerShell-specific, improving accuracy without altering functionality.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Clarified the Windows section as PowerShell-specific, improving accuracy without altering functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465312,Accepted,Accepted,,The edit improved code formatting and readability without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code formatting and readability without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480196,Accepted,Accepted,,Fixed invalid URLs by correcting the protocol from 'http:/i.imgur.com' to 'https://i.imgur.com'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Fixed invalid URLs by correcting the protocol from 'http:/i.imgur.com' to 'https://i.imgur.com'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5503040,Rejected,Accepted,,The edit improves readability by wrapping long lines to prevent horizontal scrolling without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by wrapping long lines to prevent horizontal scrolling without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481189,Rejected,Rejected,Incorrect/Risky,"The edit incorrectly merges code and output, breaking the code block structure and mixing executable code with its output.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly merges code and output, breaking the code block structure and mixing executable code with its output.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5502027,Accepted,Accepted,,The edit adds a helpful clarification about the -v flag without altering the code or introducing unnecessary content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a helpful clarification about the -v flag without altering the code or introducing unnecessary content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471930,Rejected,Accepted,,The edit improves readability by adding proper line breaks and consistent indentation to the registry code block.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper line breaks and consistent indentation to the registry code block.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481512,Rejected,Accepted,,The edit properly formatted the code block for better readability without altering its meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formatted the code block for better readability without altering its meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5501949,Accepted,Accepted,,The edit improves code readability by splitting long comments and aligning formatting without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by splitting long comments and aligning formatting without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479033,Accepted,Accepted,,The edit improves clarity and corrects minor grammatical issues without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity and corrects minor grammatical issues without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474859,Accepted,Accepted,,The edit improves formatting and clarity without altering the meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves formatting and clarity without altering the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484327,Accepted,Accepted,,The edit corrects a minor spelling error ('ptest' to 'pytest') which improves clarity and accuracy.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a minor spelling error ('ptest' to 'pytest') which improves clarity and accuracy.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5505912,Accepted,Accepted,,The edit properly formats the code for syntax highlighting and improves readability without altering the content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formats the code for syntax highlighting and improves readability without altering the content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483048,Accepted,Accepted,,The edit corrected minor grammar and punctuation issues without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected minor grammar and punctuation issues without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474883,Rejected,Accepted,,"The edit adds the missing const overload implementation and correct namespace usage, resolving the compilation error.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds the missing const overload implementation and correct namespace usage, resolving the compilation error.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5466069,Accepted,Accepted,,The edit improves readability by correcting typos and enhancing clarity without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by correcting typos and enhancing clarity without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464151,Accepted,Accepted,,The edit improves the link to directly point to the relevant section of the cppreference page.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves the link to directly point to the relevant section of the cppreference page.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474133,Accepted,Accepted,,The edit improved code formatting with proper code blocks and syntax highlighting.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code formatting with proper code blocks and syntax highlighting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484603,Rejected,Accepted,,"The edit improves formatting, grammar, and code readability without altering the original intent.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves formatting, grammar, and code readability without altering the original intent.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473992,Accepted,Accepted,,"The edit improves grammar, clarity, and formatting without altering the original meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, clarity, and formatting without altering the original meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5492707,Accepted,Accepted,,"The edit removed unnecessary code formatting from plain text, improving readability without altering meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removed unnecessary code formatting from plain text, improving readability without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467847,Rejected,Accepted,,The edit improves code readability with consistent formatting and proper indentation without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent formatting and proper indentation without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464730,Accepted,Accepted,,The edit improves readability by properly formatting code blocks and organizing the content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by properly formatting code blocks and organizing the content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480193,Accepted,Accepted,,The edit improves readability by adding proper code formatting to the text.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper code formatting to the text.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5508727,Rejected,Rejected,Unnecessary Formatting,"The edit unnecessarily changes code block formatting and adds redundant language identifiers, which does not improve clarity or correctness.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily changes code block formatting and adds redundant language identifiers, which does not improve clarity or correctness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5477196,Rejected,Rejected,Incorrect/Risky,"The suggested edit incorrectly changes the attribute to 'autoComplete' which is not valid HTML, breaking the functionality.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The suggested edit incorrectly changes the attribute to 'autoComplete' which is not valid HTML, breaking the functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5462661,Accepted,Accepted,,The edit improves code block formatting with proper language tags and enhances readability without altering content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code block formatting with proper language tags and enhances readability without altering content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482456,Accepted,Accepted,,The edit adds relevant explanation connecting the code to the original question's context.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds relevant explanation connecting the code to the original question's context.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480386,Accepted,Accepted,,"The URL was updated to a working, HTTPS version, improving link reliability without altering content or formatting.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The URL was updated to a working, HTTPS version, improving link reliability without altering content or formatting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5493084,Accepted,Accepted,,Improved table formatting for better readability without altering content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Improved table formatting for better readability without altering content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482498,Accepted,Accepted,,The edit improves code readability with consistent formatting without changing functionality.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves code readability with consistent formatting without changing functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5478302,Rejected,Rejected,No Meaningful Improvement,"The suggested edit does not change the text or code, making it identical to the original.","```json
+{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The suggested edit does not change the text or code, making it identical to the original.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5509422,Accepted,Accepted,,"The edit makes the code runnable by adding a necessary jQuery library, improving the example's usefulness.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit makes the code runnable by adding a necessary jQuery library, improving the example's usefulness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461632,Accepted,Accepted,,The edit improves code readability by fixing inconsistent indentation and line breaks without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by fixing inconsistent indentation and line breaks without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507988,Rejected,Rejected,Incorrect/Risky,"The suggested edit incorrectly claims that string interpolation works with raw strings in Dart, which is not true and could mislead readers.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The suggested edit incorrectly claims that string interpolation works with raw strings in Dart, which is not true and could mislead readers.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5473180,Accepted,Rejected,Unnecessary Formatting,The edit unnecessarily reformatted the code without improving clarity or fixing issues.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily reformatted the code without improving clarity or fixing issues.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5478828,Rejected,Accepted,,Fixed minor spelling and capitalization issues without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Fixed minor spelling and capitalization issues without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465755,Rejected,Accepted,,"The edit correctly adds the google-sheets-formula tag, which is relevant to the question.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly adds the google-sheets-formula tag, which is relevant to the question.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483337,Accepted,Accepted,,"The edit correctly removes an invalid return statement from a void function, improving code correctness.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly removes an invalid return statement from a void function, improving code correctness.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462530,Accepted,Accepted,,"The edit improves grammar, spelling, and clarity while preserving the original intent and code.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, spelling, and clarity while preserving the original intent and code.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464666,Rejected,Rejected,Unnecessary Formatting,"The edit incorrectly formatted the array as a code block, which was already properly formatted in the original text.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit incorrectly formatted the array as a code block, which was already properly formatted in the original text.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5487705,Rejected,Accepted,,The edit improves accuracy by rounding seconds and removes microseconds for cleaner datetime output.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves accuracy by rounding seconds and removes microseconds for cleaner datetime output.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470991,Accepted,Accepted,,The edit corrects spelling and grammar errors without altering the meaning or code.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects spelling and grammar errors without altering the meaning or code.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467974,Accepted,Accepted,,The edit improves code readability with consistent indentation and formatting without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent indentation and formatting without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469215,Accepted,Accepted,,The edit improves readability by properly formatting code blocks.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by properly formatting code blocks.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485194,Accepted,Accepted,,"The edit improves clarity by replacing a screenshot with a sample DataFrame, making the question more self-contained and answerable.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by replacing a screenshot with a sample DataFrame, making the question more self-contained and answerable.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465429,Rejected,Rejected,Unnecessary Content,The edit added an image that was not present in the original text.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit added an image that was not present in the original text.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5499381,Rejected,Rejected,Incorrect/Risky,The edit introduced incorrect code examples that do not match the original question's intent.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit introduced incorrect code examples that do not match the original question's intent.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5507154,Accepted,Accepted,,The edit improves grammar and clarity without altering the technical meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar and clarity without altering the technical meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5496717,Accepted,Accepted,,The edit correctly fixes a syntax error by adding the missing '=>' in the form_params array.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly fixes a syntax error by adding the missing '=>' in the form_params array.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468611,Rejected,Accepted,,The edit adds a necessary time zone setting as referenced in the documentation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a necessary time zone setting as referenced in the documentation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465369,Accepted,Accepted,,The edit improves code readability with proper indentation and structure without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper indentation and structure without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5501987,Accepted,Accepted,,The edit corrects a clear typo in the function name from 'fsanf' to 'fscanf'.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a clear typo in the function name from 'fsanf' to 'fscanf'.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5499332,Rejected,Accepted,,The edit improves grammar and adds proper semicolons for syntax correctness.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar and adds proper semicolons for syntax correctness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486031,Rejected,Rejected,Incorrect/Risky,"The edit removes the requestAnimationFrame call, breaking animation continuity.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit removes the requestAnimationFrame call, breaking animation continuity.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5472689,Accepted,Rejected,Unnecessary Formatting,"The edit unnecessarily alters the code formatting and removes critical content, making it harder to read and understand.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily alters the code formatting and removes critical content, making it harder to read and understand.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5465692,Rejected,Accepted,,The edit improves clarity by adding official documentation reference and detailed explanation of the callback function.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by adding official documentation reference and detailed explanation of the callback function.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468292,Rejected,Accepted,,The edit improves code clarity and conciseness without changing functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code clarity and conciseness without changing functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486267,Accepted,Accepted,,"The edit corrected spelling and grammar errors, improving clarity without altering technical content.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected spelling and grammar errors, improving clarity without altering technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469201,Accepted,Accepted,,The edit made a minor but meaningful improvement by removing redundant context without altering the technical content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit made a minor but meaningful improvement by removing redundant context without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467816,Rejected,Accepted,,"The edit corrected spelling and grammar, improving clarity without altering meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected spelling and grammar, improving clarity without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464281,Accepted,Accepted,,"The edit corrected a broken link and added a relevant tag, improving the post's accuracy and discoverability.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected a broken link and added a relevant tag, improving the post's accuracy and discoverability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463439,Accepted,Accepted,,"The edit improved grammar, punctuation, and clarity without altering the technical content.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved grammar, punctuation, and clarity without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468216,Accepted,Accepted,,The edit corrected a grammar error and removed redundant text without altering the technical content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected a grammar error and removed redundant text without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474702,Rejected,Accepted,,The edit improves readability by adding bold formatting to section headers without altering code or meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding bold formatting to section headers without altering code or meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5492633,Accepted,Accepted,,Improved code readability with consistent indentation and spacing.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Improved code readability with consistent indentation and spacing.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474700,Accepted,Accepted,,The edit improves readability by adding proper code formatting with triple backticks.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper code formatting with triple backticks.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5489869,Accepted,Accepted,,The edit fixes grammar and improves readability without altering technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes grammar and improves readability without altering technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500523,Rejected,Accepted,,"The edit clarifies the sorting behavior by explaining string vs integer sorting, improving understanding without altering the original intent.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit clarifies the sorting behavior by explaining string vs integer sorting, improving understanding without altering the original intent.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477686,Accepted,Accepted,,Fixed a typo from 'review' to 'preview' which is a meaningful correction.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Fixed a typo from 'review' to 'preview' which is a meaningful correction.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471748,Accepted,Accepted,,"The edit corrected a minor grammatical issue by adding 'and' between two clauses, improving readability without altering meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected a minor grammatical issue by adding 'and' between two clauses, improving readability without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5508914,Rejected,Rejected,Misuse (Reply/Question),"The editor's comment 'Please what is wrong' is a question, not a suggested edit.","{""Decision"": ""Rejected"", ""Category"": ""Misuse (Reply/Question)"", ""Reasoning"": ""The editor's comment 'Please what is wrong' is a question, not a suggested edit.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5466164,Rejected,Rejected,Unnecessary Content,The added code example is irrelevant to the original text and does not clarify the suggestion.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The added code example is irrelevant to the original text and does not clarify the suggestion.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5480093,Accepted,Accepted,,The edit improved grammar and formatting without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved grammar and formatting without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5476551,Rejected,Accepted,,"The edit fixed syntax errors in the code, such as missing quotes and parentheses, making it valid R code.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixed syntax errors in the code, such as missing quotes and parentheses, making it valid R code.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5478265,Rejected,Accepted,,The edit improves code readability with proper formatting and syntax highlighting without altering the content or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper formatting and syntax highlighting without altering the content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5504024,Rejected,Accepted,,"The edit fixes a typo in the heredoc delimiter from 'EOT' to 'EOF' to match the opening delimiter, which is a meaningful and necessary correction.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a typo in the heredoc delimiter from 'EOT' to 'EOF' to match the opening delimiter, which is a meaningful and necessary correction.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5506039,Accepted,Accepted,,The edit improves clarity by rephrasing the question to be more precise and grammatically correct.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by rephrasing the question to be more precise and grammatically correct.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464820,Rejected,Accepted,,The edit correctly updates outdated Termux package commands to the current standard.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly updates outdated Termux package commands to the current standard.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5472476,Accepted,Accepted,,The edit improves readability by properly formatting the code as a snippet.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by properly formatting the code as a snippet.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467115,Accepted,Accepted,,The edit improved grammar and clarity without altering the original meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved grammar and clarity without altering the original meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465925,Accepted,Accepted,,"The edit corrected spelling and grammar, improving clarity without altering the technical content.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected spelling and grammar, improving clarity without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465436,Rejected,Rejected,Incorrect/Risky,"The edit changes the logic from filtering out non-matches to filtering for matches, which alters the intended functionality.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit changes the logic from filtering out non-matches to filtering for matches, which alters the intended functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5506901,Rejected,Accepted,,Added a helpful supporting notebook link without altering code or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Added a helpful supporting notebook link without altering code or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5499363,Rejected,Accepted,,"The edit adds a safety check to prevent undefined index errors, improving the function's robustness.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a safety check to prevent undefined index errors, improving the function's robustness.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467264,Rejected,Accepted,,The edit improves code readability by adding proper syntax highlighting with code blocks.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper syntax highlighting with code blocks.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461582,Accepted,Accepted,,"The edit correctly replaces plain image URLs with Markdown image syntax, improving readability without altering code or meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly replaces plain image URLs with Markdown image syntax, improving readability without altering code or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5476164,Accepted,Rejected,Incorrect/Risky,"Changed code language from Dart to Java, introducing critical syntax errors and breaking functionality.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""Changed code language from Dart to Java, introducing critical syntax errors and breaking functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5496664,Accepted,Accepted,,The edit improved grammar by changing 'TLDR;' to 'The fix for me is to...' for better clarity and professionalism.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved grammar by changing 'TLDR;' to 'The fix for me is to...' for better clarity and professionalism.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482851,Accepted,Accepted,,The edit fixes a typo in the function name from 'drawPa`your text`ttern' to 'drawPattern'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a typo in the function name from 'drawPa`your text`ttern' to 'drawPattern'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462394,Accepted,Accepted,,The edit improves code formatting and grammar without altering the meaning or introducing risks.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and grammar without altering the meaning or introducing risks.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467603,Rejected,Accepted,,The edit improves code readability with consistent indentation and formatting.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent indentation and formatting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474137,Rejected,Accepted,,The edit adds a helpful note about a required dependency to prevent a common runtime error.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a helpful note about a required dependency to prevent a common runtime error.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464083,Accepted,Rejected,Unnecessary Content,"The suggested edit incorrectly claims to have added code from the OP's comment, but the actual code remains unchanged.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The suggested edit incorrectly claims to have added code from the OP's comment, but the actual code remains unchanged.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5461478,Accepted,Accepted,,The edit significantly improves code readability with proper indentation and syntax highlighting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit significantly improves code readability with proper indentation and syntax highlighting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484385,Accepted,Rejected,Unnecessary Formatting,"The edit unnecessarily restructured the code blocks and added redundant labels, making the content harder to read without improving clarity.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily restructured the code blocks and added redundant labels, making the content harder to read without improving clarity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5480618,Accepted,Accepted,,The edit improved spelling and grammar without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved spelling and grammar without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473809,Accepted,Accepted,,The edit improved the image display by adding proper Markdown syntax for image embedding.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved the image display by adding proper Markdown syntax for image embedding.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473005,Accepted,Accepted,,The edit improves readability by adding proper line breaks and formatting to the code block.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper line breaks and formatting to the code block.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5466227,Accepted,Accepted,,The edit added relevant tags to improve searchability and categorization of the question.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit added relevant tags to improve searchability and categorization of the question.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5509163,Rejected,Accepted,,The edit improves readability by adding proper syntax highlighting with code blocks.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper syntax highlighting with code blocks.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471529,Rejected,Rejected,Unnecessary Content,The edit introduces 'return' which is not valid in the context of the original code structure.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit introduces 'return' which is not valid in the context of the original code structure.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5500848,Rejected,Rejected,Unnecessary Content,The edit replaces functional code with generic examples that do not address the original issue.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit replaces functional code with generic examples that do not address the original issue.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5471697,Accepted,Accepted,,The edit clarifies the question and improves code formatting without altering the original intent.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit clarifies the question and improves code formatting without altering the original intent.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462066,Rejected,Accepted,,The edit improves code readability by adding proper syntax highlighting and formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper syntax highlighting and formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5492398,Rejected,Accepted,,"The edit clarifies the necessity to save the action, improving instruction accuracy without altering code or introducing errors.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit clarifies the necessity to save the action, improving instruction accuracy without altering code or introducing errors.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507530,Rejected,Accepted,,The edit improves code readability using pattern matching without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability using pattern matching without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5488344,Rejected,Rejected,Unnecessary Content,"The edit adds irrelevant text 'test abkdTECH' to the code block, which does not improve the post.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit adds irrelevant text 'test abkdTECH' to the code block, which does not improve the post.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5506296,Rejected,Accepted,,The edit improves clarity by correcting a typo and enhancing formatting without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by correcting a typo and enhancing formatting without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468250,Accepted,Accepted,,The edit improves code formatting and adds a functional code snippet for demonstration.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and adds a functional code snippet for demonstration.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475835,Rejected,Accepted,,The edit improves readability by adding proper code formatting and structure.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper code formatting and structure.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470505,Accepted,Accepted,,The edit correctly formats the SQL code block for better readability without changing the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly formats the SQL code block for better readability without changing the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464417,Rejected,Rejected,Incorrect/Risky,"The suggested edit introduces a new, incorrect code example that does not properly allocate memory for an array of strings.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The suggested edit introduces a new, incorrect code example that does not properly allocate memory for an array of strings.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5464654,Rejected,Rejected,Unnecessary Content,Added irrelevant code and comment that does not improve the answer.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""Added irrelevant code and comment that does not improve the answer.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5480541,Accepted,Rejected,Incorrect/Risky,"The edit incorrectly changes 'substring' to 'subsequence', which alters the technical meaning in a way that could mislead readers.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly changes 'substring' to 'subsequence', which alters the technical meaning in a way that could mislead readers.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5485641,Accepted,Accepted,,"The edit improves clarity by fixing typos, improving sentence structure, and reducing redundancy without altering the technical content.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by fixing typos, improving sentence structure, and reducing redundancy without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480597,Accepted,Accepted,,"The edit correctly formatted the image link syntax, improving readability without altering the content or meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly formatted the image link syntax, improving readability without altering the content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470723,Rejected,Accepted,,The edit fixes a critical Django form error by adding the required 'fields' attribute.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a critical Django form error by adding the required 'fields' attribute.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5501110,Accepted,Accepted,,The edit correctly fixes the missing closing tag in the XML-like syntax.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly fixes the missing closing tag in the XML-like syntax.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471382,Rejected,Rejected,No Meaningful Improvement,"The suggested edit did not change the text or code, making it identical to the original.","```json
+{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The suggested edit did not change the text or code, making it identical to the original.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5472529,Rejected,Accepted,,The edit improves code readability and ensures consistent padding with zeros.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability and ensures consistent padding with zeros.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490393,Accepted,Accepted,,The edit corrected a spelling error ('grammer' to 'grammar') and improved clarity without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected a spelling error ('grammer' to 'grammar') and improved clarity without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481044,Accepted,Accepted,,Improved formatting and rendered the image inline for better clarity.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Improved formatting and rendered the image inline for better clarity.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484332,Accepted,Accepted,,The edit improves clarity by removing misleading text about a non-existent 'Imports tab'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by removing misleading text about a non-existent 'Imports tab'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486129,Rejected,Accepted,,The edit improves code readability with consistent formatting and proper line breaks.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent formatting and proper line breaks.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473369,Accepted,Accepted,,The edit improves grammar and corrects code formatting without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar and corrects code formatting without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462493,Rejected,Rejected,Unnecessary Formatting,The edit unnecessarily changes the code block formatting and adds redundant text.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily changes the code block formatting and adds redundant text.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5506092,Rejected,Accepted,,The edit improves code formatting and readability without altering the content or meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and readability without altering the content or meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461500,Rejected,Accepted,,"The edit clarifies a common misunderstanding about clippy::all's limitations, adding valuable context without altering the original meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit clarifies a common misunderstanding about clippy::all's limitations, adding valuable context without altering the original meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484154,Accepted,Accepted,,The edit improves table formatting by aligning columns and adding a placeholder value to illustrate the resampling gap.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves table formatting by aligning columns and adding a placeholder value to illustrate the resampling gap.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473450,Accepted,Accepted,,The edit adds a relevant and accurate link to the MDN documentation for the reduce method.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant and accurate link to the MDN documentation for the reduce method.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465528,Accepted,Rejected,Unnecessary Formatting,The edit unnecessarily changes the formatting and structure of the code without addressing the core issue or improving clarity.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily changes the formatting and structure of the code without addressing the core issue or improving clarity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5469654,Rejected,Rejected,Incorrect/Risky,"The edit incorrectly labels R^2 as 'accuracy' and assumes the model is a RandomForest, which may not be true.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly labels R^2 as 'accuracy' and assumes the model is a RandomForest, which may not be true.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5479675,Accepted,Accepted,,The edit improved code readability with proper syntax highlighting and formatting without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code readability with proper syntax highlighting and formatting without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473784,Rejected,Accepted,,The edit improves readability by dressing the naked link with descriptive text.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by dressing the naked link with descriptive text.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5487573,Accepted,Accepted,,The edit improves clarity and corrects grammar without altering the code's functionality.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity and corrects grammar without altering the code's functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490619,Rejected,Accepted,,The edit correctly updates the code to match the modified question's field name.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly updates the code to match the modified question's field name.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464018,Accepted,Accepted,,"The edit improves code formatting, spelling, and grammar without altering the meaning or functionality.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting, spelling, and grammar without altering the meaning or functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468298,Accepted,Accepted,,The edit fixed a typo in the code by correcting 'view' to 'view the app `app_label`?'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixed a typo in the code by correcting 'view' to 'view the app `app_label`?'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5503657,Accepted,Accepted,,"The edit improves clarity, grammar, and structure while adding helpful step-by-step instructions.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves clarity, grammar, and structure while adding helpful step-by-step instructions.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473295,Rejected,Accepted,,The edit improves code formatting by adding backticks around the shell command for better readability.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting by adding backticks around the shell command for better readability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5495546,Accepted,Accepted,,The edit improves code readability with consistent indentation and spacing without altering functionality.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent indentation and spacing without altering functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5498364,Rejected,Accepted,,The edit improves code readability by adding consistent spacing and includes a relevant reference link.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding consistent spacing and includes a relevant reference link.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461396,Rejected,Accepted,,The edit fixes a syntax error by removing the invalid 'await' keyword from the for loop.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a syntax error by removing the invalid 'await' keyword from the for loop.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5505986,Rejected,Accepted,,The edit correctly updates the print statement from Python 2 to Python 3 syntax.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly updates the print statement from Python 2 to Python 3 syntax.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468328,Accepted,Accepted,,The edit improves clarity and formatting without altering the original meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity and formatting without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465357,Rejected,Accepted,,The edit adds a relevant Go generics example that improves the answer's completeness and modernity.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant Go generics example that improves the answer's completeness and modernity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479183,Rejected,Accepted,,The edit correctly changes 'commit message' to 'stash message' to accurately reflect the purpose of the git stash command.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly changes 'commit message' to 'stash message' to accurately reflect the purpose of the git stash command.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468463,Accepted,Accepted,,The edit improves grammar and clarity without altering the technical meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves grammar and clarity without altering the technical meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480932,Rejected,Rejected,Unnecessary Content,The added sentence about GNU grep 3.4 is not relevant to the original text and introduces new information without context.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The added sentence about GNU grep 3.4 is not relevant to the original text and introduces new information without context.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5482936,Accepted,Accepted,,"The edit properly formatted the error message as a code block, improving readability without altering meaning.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit properly formatted the error message as a code block, improving readability without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500348,Rejected,Accepted,,The edit correctly resolves ambiguity by specifying table aliases and clarifies that NULLs come from the right table in a LEFT JOIN.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly resolves ambiguity by specifying table aliases and clarifies that NULLs come from the right table in a LEFT JOIN.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507868,Rejected,Accepted,,The edit correctly replaces deprecated 'try!' macro with modern 'write_fmt' syntax.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly replaces deprecated 'try!' macro with modern 'write_fmt' syntax.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469133,Accepted,Accepted,,The edit properly formats the code block for better readability.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formats the code block for better readability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463124,Rejected,Accepted,,"The edit improves code formatting and adds a gender-neutral option to the radio buttons, enhancing clarity and inclusivity without altering the original intent.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and adds a gender-neutral option to the radio buttons, enhancing clarity and inclusivity without altering the original intent.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474789,Accepted,Accepted,,"The edit improves grammar, formatting, and clarity without altering the technical meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, formatting, and clarity without altering the technical meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5478451,Accepted,Accepted,,The edit corrected minor spelling and grammar issues without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected minor spelling and grammar issues without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5466963,Accepted,Accepted,,The edit improves clarity with better grammar and proper code block formatting.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity with better grammar and proper code block formatting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5488103,Rejected,Accepted,,The edit improves readability with proper formatting and clarifies technical terms without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with proper formatting and clarifies technical terms without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468015,Accepted,Accepted,,The edit improved code formatting and readability without altering the content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code formatting and readability without altering the content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5502854,Rejected,Accepted,,The edit improves clarity by specifying 'and later versions' instead of just 'now included'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by specifying 'and later versions' instead of just 'now included'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484987,Accepted,Accepted,,"The edit properly formats the code using a code block, improving readability without altering meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formats the code using a code block, improving readability without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5506128,Accepted,Accepted,,The edit improves code formatting by adding backticks around code elements for better readability.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting by adding backticks around code elements for better readability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5491953,Accepted,Accepted,,The edit corrected grammatical errors and improved clarity without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected grammatical errors and improved clarity without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475012,Accepted,Accepted,,"The edit adds a missing 'int' keyword to the variable declaration, which is a meaningful and correct improvement.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a missing 'int' keyword to the variable declaration, which is a meaningful and correct improvement.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463145,Rejected,Accepted,,The edit adds a relevant Docker Compose example that complements the existing Docker run command.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant Docker Compose example that complements the existing Docker run command.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486692,Rejected,Rejected,Unnecessary Content,"The edit includes duplicate code blocks and arrays that were not part of the original question, adding unnecessary content.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit includes duplicate code blocks and arrays that were not part of the original question, adding unnecessary content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5471005,Rejected,Accepted,,The edit improves code formatting and readability without changing the meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and readability without changing the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5501844,Rejected,Accepted,,The edit improves clarity by removing redundant code blocks and adding a relevant explanation about bias in random number generation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by removing redundant code blocks and adding a relevant explanation about bias in random number generation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5489472,Rejected,Accepted,,The edit improves code readability with consistent indentation without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent indentation without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477330,Rejected,Accepted,,The edit improved clarity and grammar without altering the original meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved clarity and grammar without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485326,Accepted,Accepted,,The edit improves readability by properly formatting the code block.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by properly formatting the code block.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479949,Rejected,Accepted,,The edit corrects a spelling error and improves clarity without altering the meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a spelling error and improves clarity without altering the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490418,Accepted,Accepted,,"The link was updated to a valid and relevant Springer book link, improving the reference's accuracy and accessibility.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The link was updated to a valid and relevant Springer book link, improving the reference's accuracy and accessibility.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461739,Rejected,Accepted,,The edit improves grammar and formatting without altering the technical content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar and formatting without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467108,Accepted,Accepted,,Corrects the typo 'in advanced' to 'in advance'.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Corrects the typo 'in advanced' to 'in advance'.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474682,Accepted,Accepted,,The edit improves readability with better formatting and adds descriptive alt text to images.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with better formatting and adds descriptive alt text to images.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473415,Rejected,Accepted,,The edit improves code readability by removing REPL prompts and aligning indentation consistently.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by removing REPL prompts and aligning indentation consistently.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486584,Rejected,Accepted,,The edit corrected minor spelling and grammar issues for clarity.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected minor spelling and grammar issues for clarity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471127,Rejected,Accepted,,"The edit corrects the column name from relname to tbl, which is consistent with the join condition using tbl, improving query accuracy.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects the column name from relname to tbl, which is consistent with the join condition using tbl, improving query accuracy.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482955,Rejected,Accepted,,The edit corrects a typo and improves clarity by removing redundant parentheses around the comma.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a typo and improves clarity by removing redundant parentheses around the comma.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5505450,Rejected,Accepted,,The edit correctly adds a necessary code change to fix the issue by setting CURLOPT_HEADER to 0.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit correctly adds a necessary code change to fix the issue by setting CURLOPT_HEADER to 0.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469292,Rejected,Accepted,,The edit improves readability with proper formatting and code block syntax without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with proper formatting and code block syntax without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473157,Rejected,Accepted,,The edit improves code readability by properly formatting the code block and preserving the original intent.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by properly formatting the code block and preserving the original intent.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473783,Rejected,Accepted,,The edit improves readability by adding code formatting and bullet points without altering the original meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves readability by adding code formatting and bullet points without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477432,Rejected,Accepted,,The edit improves code robustness by handling the case where $post might be null.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code robustness by handling the case where $post might be null.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5495843,Accepted,Accepted,,The edit corrected the spelling of 'documentation' to match the intended term in the context.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected the spelling of 'documentation' to match the intended term in the context.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5476630,Accepted,Accepted,,The edit improved clarity and formatting without changing the meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improved clarity and formatting without changing the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5472471,Rejected,Accepted,,The edit improves readability by properly formatting the code block with syntax highlighting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by properly formatting the code block with syntax highlighting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5472055,Rejected,Accepted,,The edit corrects typos and improves clarity without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects typos and improves clarity without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5493650,Rejected,Accepted,,The edit fixes syntax errors and improves code readability without altering the logic.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes syntax errors and improves code readability without altering the logic.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465390,Rejected,Rejected,Unnecessary Content,"The edit removes the code block formatting, making the code less readable and improperly integrating it into the text.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit removes the code block formatting, making the code less readable and improperly integrating it into the text.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5468073,Rejected,Accepted,,The edit improves clarity by adding descriptive text to image links without altering the original meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by adding descriptive text to image links without altering the original meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482195,Accepted,Accepted,,The edit improved the table's readability by aligning the column headers and content with proper Markdown syntax.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improved the table's readability by aligning the column headers and content with proper Markdown syntax.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481138,Rejected,Accepted,,The edit improves readability by converting raw URLs to Markdown links without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by converting raw URLs to Markdown links without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5487110,Accepted,Accepted,,The edit improves readability with proper code formatting and syntax highlighting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with proper code formatting and syntax highlighting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482950,Accepted,Accepted,,The edit improves clarity by adding 'just fine' and 'despite them all declaring an `int i` variable' to better explain the subtlety of the C99 rule.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by adding 'just fine' and 'despite them all declaring an `int i` variable' to better explain the subtlety of the C99 rule.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471190,Accepted,Accepted,,The edit improves formatting and clarity without changing the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves formatting and clarity without changing the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5508965,Rejected,Accepted,,Added necessary Maven dependency information to complete the example.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Added necessary Maven dependency information to complete the example.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471186,Accepted,Accepted,,The edit improves clarity and formatting without changing the meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves clarity and formatting without changing the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469002,Accepted,Accepted,,The edit corrected grammatical errors and improved clarity without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected grammatical errors and improved clarity without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507133,Accepted,Accepted,,"Dead links were removed, improving the answer's reliability and usability.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Dead links were removed, improving the answer's reliability and usability.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470480,Rejected,Accepted,,"The edit adds a runnable code snippet, improving clarity and usability.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a runnable code snippet, improving clarity and usability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469210,Accepted,Accepted,,"The edit fixes spelling, grammar, and crucially corrects the code logic by changing the column name from 'DeptAvg' to 'classes' and uses proper indexing syntax.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes spelling, grammar, and crucially corrects the code logic by changing the column name from 'DeptAvg' to 'classes' and uses proper indexing syntax.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5503355,Rejected,Accepted,,The edit adds necessary punctuation for grammatical correctness and clarity.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds necessary punctuation for grammatical correctness and clarity.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5502153,Rejected,Accepted,,Added a crucial warning about data destruction and suggested a safer alternative.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Added a crucial warning about data destruction and suggested a safer alternative.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471849,Accepted,Accepted,,Corrected spelling errors without altering the meaning or structure.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Corrected spelling errors without altering the meaning or structure.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467105,Rejected,Accepted,,Fixed grammar and improved code formatting without altering functionality.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Fixed grammar and improved code formatting without altering functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5493588,Rejected,Accepted,,The edit improves clarity by showing both raster and terra package methods.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by showing both raster and terra package methods.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481916,Accepted,Accepted,,"The edit correctly adds syntax highlighting and removes unnecessary backticks, improving code readability.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly adds syntax highlighting and removes unnecessary backticks, improving code readability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482983,Rejected,Accepted,,The edit improves clarity by adding context about CSS properties and box-shadow.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves clarity by adding context about CSS properties and box-shadow.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465607,Rejected,Rejected,Unnecessary Content,"The edit adds new code and explanations that were not part of the original question or context, introducing an alternate solution without addressing the original query.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit adds new code and explanations that were not part of the original question or context, introducing an alternate solution without addressing the original query.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5485065,Accepted,Accepted,,The edit improves code readability by adding proper code block formatting with triple backticks.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper code block formatting with triple backticks.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5492207,Rejected,Accepted,,"The edit modernizes the code with null safety, named parameters, and improved readability without changing functionality.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit modernizes the code with null safety, named parameters, and improved readability without changing functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5502836,Accepted,Accepted,,Corrected method name from GetNetworkCredentials to GetNetworkCredential and improved formatting for readability.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Corrected method name from GetNetworkCredentials to GetNetworkCredential and improved formatting for readability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479163,Rejected,Accepted,,The edit improves readability with consistent formatting and minor clarifications without altering the code's functionality.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with consistent formatting and minor clarifications without altering the code's functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481315,Accepted,Accepted,,The edit improves code formatting and clarifies the text without altering the meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves code formatting and clarifies the text without altering the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5505301,Rejected,Accepted,,The edit adds a missing closing brace to complete the loop syntax.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a missing closing brace to complete the loop syntax.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468652,Accepted,Accepted,,The edit improves code formatting and fixes a syntax error in the variable name.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and fixes a syntax error in the variable name.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5476662,Accepted,Accepted,,The edit correctly applies code formatting to the key command for clarity.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly applies code formatting to the key command for clarity.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475701,Accepted,Accepted,,"The repeated code block was removed, improving clarity without altering the meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The repeated code block was removed, improving clarity without altering the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490635,Rejected,Accepted,,The edit improves clarity and precision without altering the technical meaning.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves clarity and precision without altering the technical meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463574,Accepted,Accepted,,The edit improves code readability with consistent formatting and proper indentation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent formatting and proper indentation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481664,Accepted,Accepted,,The edit improves code formatting and fixes syntax errors in the CSS.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and fixes syntax errors in the CSS.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484292,Accepted,Accepted,,The edit improved readability by fixing inconsistent spacing in the table.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved readability by fixing inconsistent spacing in the table.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469594,Accepted,Accepted,,The edit improves clarity and grammar without altering technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity and grammar without altering technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482960,Accepted,Accepted,,The edit improves readability by adding proper code formatting and highlighting key error messages.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves readability by adding proper code formatting and highlighting key error messages.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5476121,Accepted,Accepted,,The edit improved clarity and readability without changing the technical meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved clarity and readability without changing the technical meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485827,Rejected,Rejected,Unnecessary Formatting,The quote block formatting is unnecessary and makes the error log harder to read.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The quote block formatting is unnecessary and makes the error log harder to read.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5465678,Rejected,Accepted,,"The edit adds emphasis to key technical details, improving clarity without altering meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds emphasis to key technical details, improving clarity without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484860,Accepted,Accepted,,The edit improved clarity and corrected minor grammatical issues without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved clarity and corrected minor grammatical issues without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5466008,Accepted,Accepted,,The edit improves readability with consistent spacing and indentation without altering functionality.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with consistent spacing and indentation without altering functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463204,Accepted,Accepted,,The edit improves code readability by adding proper Python code block formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper Python code block formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471606,Accepted,Rejected,Incorrect/Risky,The edit contains syntax errors and incorrect JavaScript code that would not function as intended.,"{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit contains syntax errors and incorrect JavaScript code that would not function as intended.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5478740,Rejected,Accepted,,The edit improved code readability by adding proper syntax highlighting and consistent indentation without altering the code's meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code readability by adding proper syntax highlighting and consistent indentation without altering the code's meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467790,Rejected,Accepted,,The edit adds a lambda function which is a valid and clearer way to apply the Correct function within pandas.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a lambda function which is a valid and clearer way to apply the Correct function within pandas.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469368,Accepted,Accepted,,The edit correctly adds code formatting to improve readability without altering the content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly adds code formatting to improve readability without altering the content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465772,Accepted,Accepted,,"The edit improves spelling, grammar, and code formatting without altering the meaning or functionality.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves spelling, grammar, and code formatting without altering the meaning or functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465462,Rejected,Rejected,Incorrect/Risky,"The edit swaps byte1 and byte2 in the reassembly, which reverses the byte order and produces incorrect results for little-endian systems.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit swaps byte1 and byte2 in the reassembly, which reverses the byte order and produces incorrect results for little-endian systems.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5467872,Rejected,Accepted,,"The edit adds a relevant update for newer Koin versions, improving the answer's accuracy and usefulness.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant update for newer Koin versions, improving the answer's accuracy and usefulness.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477051,Accepted,Accepted,,The edit corrects spelling and minor grammatical issues without altering the technical content or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects spelling and minor grammatical issues without altering the technical content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485244,Rejected,Accepted,,The edit improves clarity and formatting without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity and formatting without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5496515,Rejected,Accepted,,The edit improves accuracy by replacing 'gcc' with 'UNIX makefiles' as a more appropriate example of a non-multi-config build tool.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves accuracy by replacing 'gcc' with 'UNIX makefiles' as a more appropriate example of a non-multi-config build tool.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5490617,Rejected,Accepted,,The edit correctly updates the code to match the modified question's field name.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly updates the code to match the modified question's field name.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468089,Accepted,Accepted,,The edit improves readability by adding code formatting to commands.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves readability by adding code formatting to commands.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5502584,Rejected,Accepted,,The edit corrects a mismatch between the port number used in app.run and the one in webbrowser.open_new.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a mismatch between the port number used in app.run and the one in webbrowser.open_new.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470847,Rejected,Accepted,,"The edit adds a modern, concise solution with relevant references and a compatibility note.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a modern, concise solution with relevant references and a compatibility note.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471404,Accepted,Rejected,Incorrect/Risky,"The edit incorrectly moved the error log outside the code block and merged it with the code, breaking the structure.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly moved the error log outside the code block and merged it with the code, breaking the structure.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5483425,Accepted,Accepted,,Improved readability with proper code block formatting and consistent indentation.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Improved readability with proper code block formatting and consistent indentation.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479053,Rejected,Accepted,,The edit improves code readability with consistent indentation and formatting without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent indentation and formatting without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477888,Accepted,Accepted,,The edit adds a necessary Update call to properly track the entity for change tracking.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a necessary Update call to properly track the entity for change tracking.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5486112,Accepted,Accepted,,The edit improved grammar and formatting without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved grammar and formatting without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462976,Accepted,Rejected,Incorrect/Risky,"Adding quotes around ${account_id} changes its meaning from a variable to a literal string, which is incorrect in this context.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""Adding quotes around ${account_id} changes its meaning from a variable to a literal string, which is incorrect in this context.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5479759,Rejected,Rejected,Unnecessary Content,The edit adds meaningless text to the URL without improving the content.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit adds meaningless text to the URL without improving the content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5485108,Accepted,Accepted,,Corrected minor typos and improved clarity without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Corrected minor typos and improved clarity without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483064,Accepted,Rejected,Incorrect/Risky,"The edit removes the '(x86)' part of the path, which is incorrect for 64-bit systems and may break the command for users with 32-bit Chrome installations.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit removes the '(x86)' part of the path, which is incorrect for 64-bit systems and may break the command for users with 32-bit Chrome installations.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5491589,Accepted,Accepted,,The edit improves code readability by fixing indentation and formatting without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by fixing indentation and formatting without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473189,Accepted,Accepted,,The edit corrected multiple typos and grammatical errors while preserving the original meaning and technical content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected multiple typos and grammatical errors while preserving the original meaning and technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5493581,Rejected,Accepted,,"The edit improves clarity by rephrasing 'WebSocket++ will not accept' to 'a self-signed certificate wasn't accepted', making the statement more precise and grammatically correct.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by rephrasing 'WebSocket++ will not accept' to 'a self-signed certificate wasn't accepted', making the statement more precise and grammatically correct.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481108,Rejected,Rejected,Unnecessary Content,"The edit removed a duplicate paragraph, but the original text had a repeated section that needed cleaning.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit removed a duplicate paragraph, but the original text had a repeated section that needed cleaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5471172,Accepted,Accepted,,"The edit improves grammar, formatting, and clarity without altering the technical content.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, formatting, and clarity without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462695,Rejected,Accepted,,"The edit corrects the data length value to match the required formula of data length + 3, improving accuracy.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects the data length value to match the required formula of data length + 3, improving accuracy.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483415,Accepted,Accepted,,"The edit adds relevant information about PHP 8.1.0's behavior change, improving the answer's accuracy and usefulness.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds relevant information about PHP 8.1.0's behavior change, improving the answer's accuracy and usefulness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5504561,Rejected,Rejected,No Meaningful Improvement,The edit makes a minor wording change without improving clarity or correctness.,"{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The edit makes a minor wording change without improving clarity or correctness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5475676,Accepted,Accepted,,"The edit improves grammar, spelling, and clarity without altering the original meaning.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves grammar, spelling, and clarity without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469796,Rejected,Accepted,,The edit improves the formula by handling potential errors gracefully.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves the formula by handling potential errors gracefully.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479278,Rejected,Accepted,,"The edit adds a valid alternative method to achieve the same result, improving clarity without introducing errors.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a valid alternative method to achieve the same result, improving clarity without introducing errors.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483762,Accepted,Accepted,,The edit improves code readability by adding proper formatting and syntax highlighting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper formatting and syntax highlighting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474546,Rejected,Rejected,Alternate Solution,The edit introduces an alternative method without addressing the original issue.,"{""Decision"": ""Rejected"", ""Category"": ""Alternate Solution"", ""Reasoning"": ""The edit introduces an alternative method without addressing the original issue.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5462909,Accepted,Accepted,,"The edit corrected minor grammar and punctuation issues, improving clarity without altering meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected minor grammar and punctuation issues, improving clarity without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480871,Accepted,Accepted,,The edit improved code formatting and readability without altering meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code formatting and readability without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479253,Accepted,Accepted,,The edit improves grammar and clarity without altering the original meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar and clarity without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5509472,Accepted,Accepted,,The edit corrects a clear typo ('useFacotry' to 'useFactory') that would cause code to fail.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a clear typo ('useFacotry' to 'useFactory') that would cause code to fail.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475245,Rejected,Accepted,,The edit improves code readability with consistent formatting and proper indentation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent formatting and proper indentation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471705,Accepted,Accepted,,"The edit improves readability by consistently using italics for numbers, which is a minor but meaningful formatting enhancement.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by consistently using italics for numbers, which is a minor but meaningful formatting enhancement.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473490,Rejected,Accepted,,"The image is now directly embedded, improving visual clarity without altering the code or meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The image is now directly embedded, improving visual clarity without altering the code or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5466698,Rejected,Rejected,Unnecessary Formatting,"The edit only changed 'In any branch protection rules where you wish to make the change' to 'In any where you wish to make the change', which is grammatically incorrect and does not improve the text.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit only changed 'In any branch protection rules where you wish to make the change' to 'In any where you wish to make the change', which is grammatically incorrect and does not improve the text.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5464563,Accepted,Rejected,Incorrect/Risky,"The edit introduces a syntax error by replacing 'num=$1' with 'set num=$1', which is invalid bash syntax.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit introduces a syntax error by replacing 'num=$1' with 'set num=$1', which is invalid bash syntax.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5492110,Rejected,Accepted,,The edit correctly separates two distinct Swift code blocks with proper code fencing for clarity.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly separates two distinct Swift code blocks with proper code fencing for clarity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467017,Accepted,Accepted,,The edit corrected spelling and improved formatting without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected spelling and improved formatting without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485445,Accepted,Accepted,,The edit fixes a broken link by updating it to a working URL.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a broken link by updating it to a working URL.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5503568,Accepted,Accepted,,The edit improves code readability with consistent indentation and formatting without altering meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with consistent indentation and formatting without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5504454,Rejected,Rejected,Incorrect/Risky,"The edit incorrectly replaces 'glib' with 'glibc', which changes the meaning and introduces technical inaccuracy.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly replaces 'glib' with 'glibc', which changes the meaning and introduces technical inaccuracy.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5471219,Rejected,Accepted,,"The edit improves the function to handle duplicate keys by converting values to a list, which is a meaningful enhancement.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves the function to handle duplicate keys by converting values to a list, which is a meaningful enhancement.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481061,Rejected,Accepted,,The edit improves code clarity and aligns with modern Django practices by removing unnecessary 'str:' and replacing get_object() with get_queryset().,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code clarity and aligns with modern Django practices by removing unnecessary 'str:' and replacing get_object() with get_queryset().""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461207,Accepted,Accepted,,The edit improved code readability by adding proper syntax highlighting and formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code readability by adding proper syntax highlighting and formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484689,Rejected,Rejected,No Meaningful Improvement,"The edit made no changes to the text, so there is no improvement.","```json
+{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The edit made no changes to the text, so there is no improvement.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5465687,Rejected,Rejected,Unnecessary Content,"The edit replaces the function parameters and body with ellipses, removing essential code without justification.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit replaces the function parameters and body with ellipses, removing essential code without justification.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5480416,Rejected,Accepted,,"The edit improves code clarity and maintainability with better naming, structure, and logic.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code clarity and maintainability with better naming, structure, and logic.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464806,Rejected,Accepted,,"The edit improves the link by specifying a version, making it more reliable and precise.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves the link by specifying a version, making it more reliable and precise.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5494124,Accepted,Accepted,,"The edit capitalizes the first letter of the text, improving readability without altering meaning or code.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit capitalizes the first letter of the text, improving readability without altering meaning or code.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5492512,Accepted,Accepted,,"The edit adds a relevant and helpful link to the official documentation, improving the answer's credibility and usefulness.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit adds a relevant and helpful link to the official documentation, improving the answer's credibility and usefulness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467511,Accepted,Accepted,,The edit improves readability by replacing text references to images with actual embedded image syntax.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by replacing text references to images with actual embedded image syntax.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5492108,Rejected,Rejected,Incorrect/Risky,The edit introduces a duplicate set of commands that could confuse readers about the correct workflow.,"{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit introduces a duplicate set of commands that could confuse readers about the correct workflow.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5476901,Rejected,Rejected,Unnecessary Formatting,The edit unnecessarily adds markdown formatting without improving clarity.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily adds markdown formatting without improving clarity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5498704,Rejected,Rejected,Incorrect/Risky,"The edited command uses 'USER' instead of '$USER', which is a syntax error and will not work as intended.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edited command uses 'USER' instead of '$USER', which is a syntax error and will not work as intended.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5463263,Rejected,Accepted,,The edit improves code robustness by preventing unnecessary operations when the password is empty.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code robustness by preventing unnecessary operations when the password is empty.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5506522,Rejected,Accepted,,The edit removed irrelevant placeholder text 'enter code here' without altering the code's functionality or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removed irrelevant placeholder text 'enter code here' without altering the code's functionality or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473917,Rejected,Accepted,,The edit improves readability with proper code formatting and table presentation.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with proper code formatting and table presentation.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469426,Rejected,Accepted,,The edit improves code clarity and correctness by fixing a potential off-by-one error in field length calculation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code clarity and correctness by fixing a potential off-by-one error in field length calculation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470035,Rejected,Accepted,,"The edit adds crucial information about file build settings, improving the answer's completeness and practicality.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds crucial information about file build settings, improving the answer's completeness and practicality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5501157,Accepted,Accepted,,The edit improves code readability with proper formatting and syntax highlighting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper formatting and syntax highlighting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483033,Accepted,Accepted,,Fixed broken links to official Git documentation.,"{""Decision"": ""Accepted"", ""Reasoning"": ""Fixed broken links to official Git documentation.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468242,Accepted,Accepted,,The edit improves clarity by rephrasing the introduction and properly formatting the code block.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by rephrasing the introduction and properly formatting the code block.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479322,Accepted,Accepted,,The edit corrects spelling and improves code formatting without altering the original meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects spelling and improves code formatting without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5466397,Rejected,Accepted,,"The edit properly formats the code using triple backticks and language specification, improving readability without altering meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formats the code using triple backticks and language specification, improving readability without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474780,Accepted,Accepted,,The edit improves code readability by adding proper code block formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper code block formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500743,Rejected,Accepted,,"The edit improved code formatting with proper syntax highlighting and indentation, enhancing readability without altering meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved code formatting with proper syntax highlighting and indentation, enhancing readability without altering meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477115,Rejected,Accepted,,The edit improves grammar and formatting without altering the technical content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar and formatting without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5487745,Accepted,Accepted,,The edit improves code readability with proper syntax highlighting and formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper syntax highlighting and formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5491232,Accepted,Accepted,,The edit removes redundant code and improves clarity without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removes redundant code and improves clarity without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479835,Rejected,Accepted,,The edit correctly identifies and adds a missing import required for the code to work.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly identifies and adds a missing import required for the code to work.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463597,Accepted,Accepted,,The edit properly formats the code with correct syntax highlighting and improves readability without altering the original intent or functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formats the code with correct syntax highlighting and improves readability without altering the original intent or functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507928,Rejected,Accepted,,"The edit correctly updates the code to use 'Exporter' instead of 'pb_Stl', which is a meaningful and accurate improvement.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly updates the code to use 'Exporter' instead of 'pb_Stl', which is a meaningful and accurate improvement.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5496980,Rejected,Rejected,Unnecessary Formatting,The edit incorrectly wraps code blocks with 'py' tags instead of using proper Markdown syntax.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit incorrectly wraps code blocks with 'py' tags instead of using proper Markdown syntax.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5494638,Accepted,Accepted,,"The edit improves capitalization, punctuation, and fixes a typo without altering the meaning.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves capitalization, punctuation, and fixes a typo without altering the meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474352,Rejected,Rejected,Misuse (Reply/Question),"The edit includes a user's response as if it were part of the code, which is inappropriate for a suggested edit.","{""Decision"": ""Rejected"", ""Category"": ""Misuse (Reply/Question)"", ""Reasoning"": ""The edit includes a user's response as if it were part of the code, which is inappropriate for a suggested edit.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5500745,Accepted,Accepted,,"The edit improves formatting, corrects minor errors, and enhances clarity without altering the original meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves formatting, corrects minor errors, and enhances clarity without altering the original meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5472432,Accepted,Rejected,No Meaningful Improvement,"The code and text remain identical before and after the edit, showing no actual changes or improvements.","```json
+{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The code and text remain identical before and after the edit, showing no actual changes or improvements.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5495553,Accepted,Accepted,,The edit improves code readability by fixing inconsistent indentation and spacing without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by fixing inconsistent indentation and spacing without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5463067,Rejected,Rejected,Alternate Solution,The edit replaces the original solution with a different approach rather than improving it.,"{""Decision"": ""Rejected"", ""Category"": ""Alternate Solution"", ""Reasoning"": ""The edit replaces the original solution with a different approach rather than improving it.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5467975,Rejected,Accepted,,The edit improves code readability with proper formatting and indentation without altering the content or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper formatting and indentation without altering the content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474086,Rejected,Rejected,Unnecessary Formatting,The edit only adds a newline without changing the content or fixing any issues.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit only adds a newline without changing the content or fixing any issues.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5469539,Accepted,Rejected,Unnecessary Formatting,The edit only changed the spacing between code blocks without improving clarity or fixing issues.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit only changed the spacing between code blocks without improving clarity or fixing issues.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5466513,Rejected,Accepted,,Removed broken external links to improve content reliability.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Removed broken external links to improve content reliability.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5480038,Rejected,Accepted,,The edit improved readability with better formatting and structure without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved readability with better formatting and structure without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5468988,Accepted,Accepted,,"The edit improves readability by fixing syntax, grammar, and formatting without altering the technical content.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by fixing syntax, grammar, and formatting without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475467,Rejected,Accepted,,The edit improves readability by converting image links to inline images and adds code formatting to improve clarity.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by converting image links to inline images and adds code formatting to improve clarity.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5485288,Rejected,Accepted,,The edit improves code readability with proper formatting and structure.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper formatting and structure.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462362,Accepted,Rejected,Unnecessary Content,"The edit incorrectly adds code that was not in the original post, including a new state initialization and a duplicate setApiStatus call.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit incorrectly adds code that was not in the original post, including a new state initialization and a duplicate setApiStatus call.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5465527,Accepted,Accepted,,The edit properly formats the code using triple backticks for better readability.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formats the code using triple backticks for better readability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507807,Rejected,Rejected,Incorrect/Risky,The Kotlin code examples are incorrectly written with Java syntax and contain syntax errors.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The Kotlin code examples are incorrectly written with Java syntax and contain syntax errors.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5462450,Accepted,Accepted,,"The edit improved grammar, spelling, and code formatting without altering the meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improved grammar, spelling, and code formatting without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471651,Rejected,Rejected,Incorrect/Risky,"The suggested syntax '^7.3||^8.0' is invalid Composer version constraint syntax, making the edit technically incorrect and potentially harmful.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The suggested syntax '^7.3||^8.0' is invalid Composer version constraint syntax, making the edit technically incorrect and potentially harmful.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5507029,Rejected,Accepted,,The edit improves readability by adding a line break between the command and the explanation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding a line break between the command and the explanation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5475400,Accepted,Accepted,,The edit improves readability by adding proper code block formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper code block formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500840,Rejected,Accepted,,The edit adds a useful command-line option that improves the answer's completeness.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a useful command-line option that improves the answer's completeness.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5472652,Rejected,Accepted,,The edit improves code and output formatting with proper syntax highlighting and readability.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code and output formatting with proper syntax highlighting and readability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5462546,Accepted,Accepted,,"The edit adds clear, relevant configuration examples that improve the answer's usefulness.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds clear, relevant configuration examples that improve the answer's usefulness.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477684,Rejected,Rejected,Incorrect/Risky,"The edit incorrectly changes the logic from filtering rows with outliers in at least one column to filtering rows where all columns are within bounds, which reverses the intended behavior.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly changes the logic from filtering rows with outliers in at least one column to filtering rows where all columns are within bounds, which reverses the intended behavior.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5480806,Rejected,Accepted,,"The edit adds a helpful clarification about user permissions, improving the answer's reliability.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a helpful clarification about user permissions, improving the answer's reliability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5499836,Rejected,Accepted,,The URL was corrected to a valid one that produces the expected response.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The URL was corrected to a valid one that produces the expected response.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467346,Accepted,Accepted,,The edit improves readability by adding proper spacing and punctuation without altering the technical content.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper spacing and punctuation without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500790,Accepted,Accepted,,"The edit removes a dead URL, improving the answer's reliability.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removes a dead URL, improving the answer's reliability.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5481461,Rejected,Accepted,,"The edit corrects spelling, grammar, and formatting issues while preserving the original meaning and code structure.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit corrects spelling, grammar, and formatting issues while preserving the original meaning and code structure.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5465911,Accepted,Rejected,Unnecessary Content,"The edit unnecessarily removed the problem description and context, which are crucial for understanding the question.","{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit unnecessarily removed the problem description and context, which are crucial for understanding the question.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5465965,Rejected,Accepted,,The edit adds necessary imports to make the code runnable and clarifies syntax with proper code blocks.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds necessary imports to make the code runnable and clarifies syntax with proper code blocks.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5487370,Accepted,Accepted,,The edit corrected a spelling error and improved clarity without altering the code's functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected a spelling error and improved clarity without altering the code's functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5499016,Rejected,Accepted,,The edit corrected a typo in the link text from 'carba' to 'charba project'.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected a typo in the link text from 'carba' to 'charba project'.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5504515,Accepted,Accepted,,"The edit correctly updates the method from ExecuteResult to ExecuteResultAsync, which is necessary for Azure Functions.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly updates the method from ExecuteResult to ExecuteResultAsync, which is necessary for Azure Functions.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5494908,Rejected,Accepted,,Added helpful explanatory notes to clarify column roles in the formula.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Added helpful explanatory notes to clarify column roles in the formula.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500554,Accepted,Accepted,,"The edit clarifies the context by specifying axios usage and provides a relevant link to its documentation, improving the answer's usefulness.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit clarifies the context by specifying axios usage and provides a relevant link to its documentation, improving the answer's usefulness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5483508,Accepted,Accepted,,The edit improves code readability with proper syntax highlighting and formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability with proper syntax highlighting and formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5482769,Accepted,,,,"v3h4.4c-.4,2.1-2.3,3.5-4.4,3.4-2.6-.1-4.6-2.1-4.7-4.7-.1-2.7,2-5,4.7-5.1,1.1,0,2.2,.4,3.1,1.2l2.3-2.2c-1.4-1.4-3.4-2.1-5.3-2.1C3.6,0,0,3.6,0,8s3.6,8,8,8,7.7-3.2,7.7-7.8c-.1-.6-.1-1.1-.3-1.7Z""/>             <path class=""d"" d=""M15.4,6.5H7.9v3h4.4c-.4,2.1-2.3,3.5-4.4,3.4-2.6-.1-4.6-2.1-4.7-4.",Could not parse Decision,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5479975,Accepted,Accepted,,"The edit correctly changes 'braking' to 'breaking', which is the appropriate term in the context of code changes.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit correctly changes 'braking' to 'breaking', which is the appropriate term in the context of code changes.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477585,Rejected,Accepted,,The edit fixes typos and improves clarity without altering the code's functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes typos and improves clarity without altering the code's functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484339,Accepted,Accepted,,The edit improves clarity and grammar without altering the technical meaning.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity and grammar without altering the technical meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470401,Rejected,Rejected,Unnecessary Content,The edit introduces an external library without addressing the original question about optimizing the function.,"```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Content"", ""Reasoning"": ""The edit introduces an external library without addressing the original question about optimizing the function.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5476735,Accepted,Accepted,,The edit improves code formatting and readability without altering the meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and readability without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5491701,Rejected,Accepted,,The edit improves code readability by adding proper syntax highlighting and formatting.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding proper syntax highlighting and formatting.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464834,Rejected,Accepted,,The edit improves readability by embedding images directly instead of using links.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by embedding images directly instead of using links.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5506202,Accepted,Accepted,,"The edit corrects a grammatical error by changing 'you be trying' to 'you should be trying', which improves clarity and correctness.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrects a grammatical error by changing 'you be trying' to 'you should be trying', which improves clarity and correctness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484862,Rejected,Accepted,,The edit improves accuracy by correcting a potential issue with environment variable scope.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves accuracy by correcting a potential issue with environment variable scope.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5503726,Rejected,Rejected,Unnecessary Formatting,The edit unnecessarily changes the formatting of the text without improving clarity or correctness.,"{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily changes the formatting of the text without improving clarity or correctness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5471659,Accepted,Accepted,,The edit improves readability with minor formatting fixes and corrects a typo.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with minor formatting fixes and corrects a typo.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467772,Rejected,Accepted,,"The edit fixes a critical typo by changing 'PlaceHolder1' to 'Panel' in the markup, which was causing the code to fail.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit fixes a critical typo by changing 'PlaceHolder1' to 'Panel' in the markup, which was causing the code to fail.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464908,Rejected,Accepted,,The edit properly formatted the code block for better readability without altering the content or meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit properly formatted the code block for better readability without altering the content or meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467632,Rejected,Accepted,,Edit fixes a critical compile-time error by correcting the return type of the getCountry method.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""Edit fixes a critical compile-time error by correcting the return type of the getCountry method.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5484746,Rejected,Rejected,Incorrect/Risky,"The edit incorrectly suggests using 's.Value' when 's' is already the matched string, not a Match object.","{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit incorrectly suggests using 's.Value' when 's' is already the matched string, not a Match object.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5484366,Rejected,Accepted,,"The edit improves grammar, removes fluff, and fixes code formatting without altering the meaning.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, removes fluff, and fixes code formatting without altering the meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474458,Rejected,Accepted,,The edit improves clarity by replacing 'You can just use this' with the more neutral 'You could use this'.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves clarity by replacing 'You can just use this' with the more neutral 'You could use this'.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5503814,Accepted,Accepted,,"The edit improves grammar, fixes image embedding, and enhances readability without altering the original meaning.","{""Decision"": ""Accepted"", ""Reasoning"": ""The edit improves grammar, fixes image embedding, and enhances readability without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5496250,Accepted,Accepted,,The edit improves readability by adding appropriate code blocks and formatting without altering the original meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding appropriate code blocks and formatting without altering the original meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5464740,Accepted,Accepted,,The edit corrected grammar and punctuation without altering the meaning or code.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected grammar and punctuation without altering the meaning or code.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5471811,Rejected,Accepted,,"The edit adds a relevant alternative solution using toLocaleDateString, improving the answer's completeness.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit adds a relevant alternative solution using toLocaleDateString, improving the answer's completeness.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5461996,Accepted,Accepted,,The edit improves code formatting and clarifies technical terms without altering the original meaning.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code formatting and clarifies technical terms without altering the original meaning.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5470943,Rejected,Rejected,No Meaningful Improvement,"The suggested edit does not change the text or code, making it identical to the original.","{""Decision"": ""Rejected"", ""Category"": ""No Meaningful Improvement"", ""Reasoning"": ""The suggested edit does not change the text or code, making it identical to the original.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5476294,Accepted,Accepted,,"The edit improves readability by fixing spacing, punctuation, and formatting without altering the technical content.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by fixing spacing, punctuation, and formatting without altering the technical content.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5507210,Rejected,Accepted,,The edit adds necessary JSON structure to make the configuration valid and functional.,"{""Decision"": ""Accepted"", ""Reasoning"": ""The edit adds necessary JSON structure to make the configuration valid and functional.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473618,Rejected,Rejected,Unnecessary Formatting,"The edit unnecessarily reformatted the code with inconsistent indentation and spacing, making it harder to read without improving clarity.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Unnecessary Formatting"", ""Reasoning"": ""The edit unnecessarily reformatted the code with inconsistent indentation and spacing, making it harder to read without improving clarity.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5504373,Accepted,Accepted,,The edit improves readability with consistent formatting and corrects minor grammatical issues without altering the technical content.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with consistent formatting and corrects minor grammatical issues without altering the technical content.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5504482,Rejected,Accepted,,The edit improves compatibility with Scala 3 by replacing deprecated syntax with modern implicit class usage.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves compatibility with Scala 3 by replacing deprecated syntax with modern implicit class usage.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5469577,Accepted,Accepted,,The edit improves readability by adding proper code formatting to the error message.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper code formatting to the error message.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5500544,Rejected,Accepted,,"The edit improves readability by adding a space before 'am/pm', which is a valid Excel formatting requirement.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding a space before 'am/pm', which is a valid Excel formatting requirement.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467887,Accepted,Accepted,,The edit improves readability by adding proper code formatting and indentation.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability by adding proper code formatting and indentation.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5467838,Accepted,Rejected,Incorrect/Risky,"The edit introduces a GROUP BY clause and a different dataset path, altering the original query's intent and potentially causing errors.","```json
+{""Decision"": ""Rejected"", ""Category"": ""Incorrect/Risky"", ""Reasoning"": ""The edit introduces a GROUP BY clause and a different dataset path, altering the original query's intent and potentially causing errors.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,1
+5474974,Accepted,Accepted,,The edit removed redundant text without altering the meaning or functionality.,"{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit removed redundant text without altering the meaning or functionality.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5473849,Accepted,Accepted,,"The edit improves grammar, clarifies technical terms, and properly formats the code block.","```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, clarifies technical terms, and properly formats the code block.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5476196,Rejected,Accepted,,"The edit improves grammar, formatting, and clarity without altering the original meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves grammar, formatting, and clarity without altering the original meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5474986,Rejected,Accepted,,The edit improves code readability by adding consistent indentation and formatting without altering functionality.,"```json
+{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves code readability by adding consistent indentation and formatting without altering functionality.""}
+```",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5501491,Rejected,Accepted,,"The edit corrected the misspelled word 'tirgger' to 'fire off', improving clarity without altering meaning.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit corrected the misspelled word 'tirgger' to 'fire off', improving clarity without altering meaning.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0
+5477854,Accepted,Accepted,,"The edit improves readability with proper capitalization, punctuation, and consistent code formatting.","{""Decision"": ""Accepted"", ""Category"": null, ""Reasoning"": ""The edit improves readability with proper capitalization, punctuation, and consistent code formatting.""}",,/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct,0

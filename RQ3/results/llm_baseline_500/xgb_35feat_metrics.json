@@ -1,0 +1,89 @@
+{
+  "model": "XGBoost Metadata (35 features) on LLM 500-sample subset",
+  "n_features": 35,
+  "features": [
+    "Reputation",
+    "Flesch",
+    "Fog",
+    "LIX",
+    "Kincaid",
+    "ARI",
+    "ColemanLiau",
+    "SMOG",
+    "DaleChall",
+    "UserEdits24h",
+    "TagPopularitySum",
+    "PostLengthChars",
+    "NumTags",
+    "NumLinks",
+    "NumLinksChanged",
+    "TotalVotes",
+    "Score",
+    "CommentCount",
+    "PostNumEditsBefore",
+    "PostAcceptedEditsBefore",
+    "PostRejectedEditsBefore",
+    "TitleEditLength",
+    "BodyEditLength",
+    "TagEditLength",
+    "TotalEditLength",
+    "DelayHours",
+    "TextChangeRatio",
+    "CodelineBefore",
+    "CodelineAfter",
+    "CodelineChanges",
+    "UserAcceptedEditsBefore",
+    "UserRejectedEditsBefore",
+    "UserTotalEditsBefore",
+    "UserAcceptanceRate",
+    "UserRejectionRate"
+  ],
+  "n_samples": 500,
+  "n_accepted": 250,
+  "n_rejected": 250,
+  "threshold": 0.5,
+  "accuracy": 0.646,
+  "macro_f1": 0.6457,
+  "rejected_precision": 0.6377,
+  "rejected_recall": 0.676,
+  "rejected_f1": 0.6563,
+  "auprc": 0.7349,
+  "roc_auc": 0.7215,
+  "confusion_matrix": [
+    [
+      154,
+      96
+    ],
+    [
+      81,
+      169
+    ]
+  ],
+  "classification_report": {
+    "Accepted": {
+      "precision": 0.6553191489361702,
+      "recall": 0.616,
+      "f1-score": 0.6350515463917525,
+      "support": 250.0
+    },
+    "Rejected": {
+      "precision": 0.6377358490566037,
+      "recall": 0.676,
+      "f1-score": 0.6563106796116505,
+      "support": 250.0
+    },
+    "accuracy": 0.646,
+    "macro avg": {
+      "precision": 0.646527498996387,
+      "recall": 0.646,
+      "f1-score": 0.6456811130017015,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.646527498996387,
+      "recall": 0.646,
+      "f1-score": 0.6456811130017015,
+      "support": 500.0
+    }
+  }
+}

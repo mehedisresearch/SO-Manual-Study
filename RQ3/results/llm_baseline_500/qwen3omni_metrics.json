@@ -1,0 +1,50 @@
+{
+  "model": "qwen3omni (/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct)",
+  "n_samples": 500,
+  "invalid_predictions": 2,
+  "accuracy": 0.572,
+  "macro_f1": 0.5175,
+  "rejected_precision": 0.7195,
+  "rejected_recall": 0.236,
+  "rejected_f1": 0.3554,
+  "confusion_matrix": [
+    [
+      227,
+      23
+    ],
+    [
+      191,
+      59
+    ]
+  ],
+  "classification_report": {
+    "Accepted": {
+      "precision": 0.5430622009569378,
+      "recall": 0.908,
+      "f1-score": 0.6796407185628742,
+      "support": 250.0
+    },
+    "Rejected": {
+      "precision": 0.7195121951219512,
+      "recall": 0.236,
+      "f1-score": 0.35542168674698793,
+      "support": 250.0
+    },
+    "accuracy": 0.572,
+    "macro avg": {
+      "precision": 0.6312871980394446,
+      "recall": 0.5720000000000001,
+      "f1-score": 0.517531202654931,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.6312871980394446,
+      "recall": 0.572,
+      "f1-score": 0.5175312026549311,
+      "support": 500.0
+    }
+  },
+  "model_path": "/gpuhome/shanto1/models/Qwen3-Omni-30B-A3B-Instruct",
+  "backend": "qwen3_omni",
+  "n_gpus": 8
+}

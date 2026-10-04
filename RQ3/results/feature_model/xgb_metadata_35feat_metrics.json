@@ -1,0 +1,80 @@
+{
+  "model": "XGBoost Metadata (35 features)",
+  "n_features": 35,
+  "features": [
+    "Reputation",
+    "Flesch",
+    "Fog",
+    "LIX",
+    "Kincaid",
+    "ARI",
+    "ColemanLiau",
+    "SMOG",
+    "DaleChall",
+    "UserEdits24h",
+    "TagPopularitySum",
+    "PostLengthChars",
+    "NumTags",
+    "NumLinks",
+    "NumLinksChanged",
+    "TotalVotes",
+    "Score",
+    "CommentCount",
+    "PostNumEditsBefore",
+    "PostAcceptedEditsBefore",
+    "PostRejectedEditsBefore",
+    "TitleEditLength",
+    "BodyEditLength",
+    "TagEditLength",
+    "TotalEditLength",
+    "DelayHours",
+    "TextChangeRatio",
+    "CodelineBefore",
+    "CodelineAfter",
+    "CodelineChanges",
+    "UserAcceptedEditsBefore",
+    "UserRejectedEditsBefore",
+    "UserTotalEditsBefore",
+    "UserAcceptanceRate",
+    "UserRejectionRate"
+  ],
+  "removed_features": [
+    "PostLengthTokens",
+    "TagPopularityMean",
+    "AnswerCount",
+    "CodeChangePercentage"
+  ],
+  "train_samples": 50000,
+  "test_samples": 20236,
+  "auprc": 0.4311,
+  "roc_auc": 0.7602,
+  "recall_at_90_precision": 0.0113,
+  "threshold_at_90_precision": 0.9925,
+  "classification_report_0.5": {
+    "0": {
+      "precision": 0.9224723700368399,
+      "recall": 0.6675355450236967,
+      "f1-score": 0.7745660766454717,
+      "support": 16880.0
+    },
+    "1": {
+      "precision": 0.30033661638199727,
+      "recall": 0.7178188319427891,
+      "f1-score": 0.42348598048694736,
+      "support": 3356.0
+    },
+    "accuracy": 0.6758746787902747,
+    "macro avg": {
+      "precision": 0.6114044932094186,
+      "recall": 0.6926771884832429,
+      "f1-score": 0.5990260285662096,
+      "support": 20236.0
+    },
+    "weighted avg": {
+      "precision": 0.8192954779007631,
+      "recall": 0.6758746787902747,
+      "f1-score": 0.7163418820068076,
+      "support": 20236.0
+    }
+  }
+}

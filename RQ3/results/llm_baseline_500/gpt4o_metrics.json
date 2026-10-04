@@ -1,0 +1,48 @@
+{
+  "model": "gpt-4o (OpenAI Batch, chunked)",
+  "n_samples": 500,
+  "invalid_predictions": 0,
+  "accuracy": 0.538,
+  "macro_f1": 0.5131,
+  "rejected_precision": 0.5693,
+  "rejected_recall": 0.312,
+  "rejected_f1": 0.4031,
+  "confusion_matrix": [
+    [
+      191,
+      59
+    ],
+    [
+      172,
+      78
+    ]
+  ],
+  "classification_report": {
+    "Accepted": {
+      "precision": 0.5261707988980716,
+      "recall": 0.764,
+      "f1-score": 0.6231647634584013,
+      "support": 250.0
+    },
+    "Rejected": {
+      "precision": 0.5693430656934306,
+      "recall": 0.312,
+      "f1-score": 0.40310077519379844,
+      "support": 250.0
+    },
+    "accuracy": 0.538,
+    "macro avg": {
+      "precision": 0.5477569322957512,
+      "recall": 0.538,
+      "f1-score": 0.5131327693260999,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.5477569322957511,
+      "recall": 0.538,
+      "f1-score": 0.5131327693260999,
+      "support": 500.0
+    }
+  },
+  "n_parsed": 500
+}

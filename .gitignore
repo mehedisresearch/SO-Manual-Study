@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.log
+*.pid
+.ipynb_checkpoints/
+
+# Large local-only datasets (obtain separately; see README)
+RQ1/data/*.parquet
+RQ3/data/train_bert.parquet
+RQ3/data/val.parquet
+RQ3/data/test.parquet
+**/*.npy
+**/*.pt

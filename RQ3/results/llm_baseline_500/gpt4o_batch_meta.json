@@ -1,0 +1,106 @@
+{
+  "chunks": [
+    {
+      "input_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0000_0079.jsonl",
+      "input_file_id": "file-LMxgx7V6AW6a7Q1EpVpyyV",
+      "batch_id": "batch_6a5268eacac8819097e3a569ff39ff09",
+      "status": "completed",
+      "output_file_id": "file-FXBaYqKMYWWBStU3ArfXWC",
+      "error_file_id": null,
+      "request_counts": {
+        "completed": 80,
+        "failed": 0,
+        "total": 80
+      },
+      "output_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0000_0079_output.jsonl"
+    },
+    {
+      "input_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0080_0159.jsonl",
+      "input_file_id": "file-ENUGLBFiMUh1DnfmJsyfDP",
+      "batch_id": "batch_6a5269a1bf088190b5411e74393d323b",
+      "status": "completed",
+      "output_file_id": "file-91t4QGnyYhtF2NCLZNMD6r",
+      "error_file_id": null,
+      "request_counts": {
+        "completed": 80,
+        "failed": 0,
+        "total": 80
+      },
+      "output_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0080_0159_output.jsonl"
+    },
+    {
+      "input_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0160_0239.jsonl",
+      "input_file_id": "file-11PLjbF3VTRF8eXxqxAcJ3",
+      "batch_id": "batch_6a526a1b8b688190807325767c096e1a",
+      "status": "completed",
+      "output_file_id": "file-EjJ3QVwJbV3hHoD3NiVMBx",
+      "error_file_id": null,
+      "request_counts": {
+        "completed": 80,
+        "failed": 0,
+        "total": 80
+      },
+      "output_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0160_0239_output.jsonl"
+    },
+    {
+      "input_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0240_0319.jsonl",
+      "input_file_id": "file-AAUExFEZVCnf7mmk6rb9AQ",
+      "batch_id": "batch_6a526a9516208190980a9b13aaf2fba6",
+      "status": "completed",
+      "output_file_id": "file-6RstGxRjnA4Lnd3V13m96m",
+      "error_file_id": null,
+      "request_counts": {
+        "completed": 80,
+        "failed": 0,
+        "total": 80
+      },
+      "output_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0240_0319_output.jsonl"
+    },
+    {
+      "input_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0320_0399.jsonl",
+      "input_file_id": "file-ABLwmSx3mcmBrvbiAK4jVM",
+      "batch_id": "batch_6a526b0fdcd08190806044a895ad1194",
+      "status": "completed",
+      "output_file_id": "file-NinAWyowLhX7BNWbfpuNzD",
+      "error_file_id": null,
+      "request_counts": {
+        "completed": 80,
+        "failed": 0,
+        "total": 80
+      },
+      "output_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0320_0399_output.jsonl"
+    },
+    {
+      "input_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0400_0479.jsonl",
+      "input_file_id": "file-Ey7Yh48Rhsj343ncGLYijg",
+      "batch_id": "batch_6a526b895c348190a4675a52758bddd3",
+      "status": "completed",
+      "output_file_id": "file-7p6KAFXHMDugyqpCjvLZqM",
+      "error_file_id": null,
+      "request_counts": {
+        "completed": 80,
+        "failed": 0,
+        "total": 80
+      },
+      "output_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0400_0479_output.jsonl"
+    },
+    {
+      "input_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0480_0499.jsonl",
+      "input_file_id": "file-M3rDTL4mXJivi3faC2Kfkh",
+      "batch_id": "batch_6a526c0372ec8190a93411f23c3a8107",
+      "status": "completed",
+      "output_file_id": "file-GUJcMu144hE18Ev1So732W",
+      "error_file_id": null,
+      "request_counts": {
+        "completed": 20,
+        "failed": 0,
+        "total": 20
+      },
+      "output_path": "/gpuhome/shanto1/SuggestedEditClassification/SO_Edit_Classification/results/llm_baseline_500/gpt4o_chunks/chunk_0480_0499_output.jsonl"
+    }
+  ],
+  "model": "gpt-4o",
+  "chunk_size": 80,
+  "n_requests": 500,
+  "status": "completed"
+}

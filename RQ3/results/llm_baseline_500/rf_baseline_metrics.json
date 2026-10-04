@@ -1,0 +1,52 @@
+{
+  "model": "Random Forest baseline (handcrafted features)",
+  "source_file": "results/ensemble_base1_fix.csv",
+  "prob_column": "Prob_Random_Forest_baseline",
+  "n_samples": 500,
+  "invalid_predictions": 0,
+  "threshold": 0.5,
+  "accuracy": 0.582,
+  "macro_f1": 0.582,
+  "rejected_precision": 0.581,
+  "rejected_recall": 0.588,
+  "rejected_f1": 0.5845,
+  "auprc": 0.6428,
+  "roc_auc": 0.6349,
+  "confusion_matrix": [
+    [
+      144,
+      106
+    ],
+    [
+      103,
+      147
+    ]
+  ],
+  "classification_report": {
+    "Accepted": {
+      "precision": 0.582995951417004,
+      "recall": 0.576,
+      "f1-score": 0.579476861167002,
+      "support": 250.0
+    },
+    "Rejected": {
+      "precision": 0.5810276679841897,
+      "recall": 0.588,
+      "f1-score": 0.584493041749503,
+      "support": 250.0
+    },
+    "accuracy": 0.582,
+    "macro avg": {
+      "precision": 0.5820118097005968,
+      "recall": 0.582,
+      "f1-score": 0.5819849514582525,
+      "support": 500.0
+    },
+    "weighted avg": {
+      "precision": 0.5820118097005968,
+      "recall": 0.582,
+      "f1-score": 0.5819849514582526,
+      "support": 500.0
+    }
+  }
+}
